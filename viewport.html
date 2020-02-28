@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<!-- from here 30dd before final commit -->
+	<script>
+		function degMij() {	
+			var w = document.documentElement.clientWidth; 
+			var h = document.documentElement.clientHeight;
+			var txt = h + "(h) x " + w + "(w)"
+		
+			document.getElementById("perm").innerHTML = txt; 
+		}
+		function start() {
+			degMij();
+			setTimeout("location.reload(true)", 5000);
+			/* set to 5sec, feel free to mess with it */
+		}
+	</script>
+	<style>
+		#perm {
+			position: fixed;
+			top: 0;
+			right: 0;
+			z-index: 100;
+			width: 135px;
+			height: 25px;
+			background-color: #E0F5CF; 
+			color: black;
+			text-align: center;
+		}
+	</style>
+<!-- dd to here, also the degMij() and start() ref 2j below. Leave body open tag -->
+</head>
+<body onresize="degMij()" onload="start()">
+	<p id="perm">No Bueno!</p>
+</body>
+</html>
