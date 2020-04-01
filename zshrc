@@ -1,4 +1,4 @@
-# This file is created by the user!  Capcaun, yeah me!
+# This file is created by the user <insert name here>!
 
 ## First and foremost we bind a key to vi editor
 
