@@ -1,0 +1,74 @@
+# User created tmux configuration file
+
+# SETTING VI AS OUR EDITOR
+set-option -g status-keys vi
+set-option -g mode-keys vi
+
+# Prefix key bind by user to <Ctrl>+f instead of <Ctrl>+b
+set-option -g prefix C-f
+
+# Base-index set to 1 rather than 0 [both window and pane]
+set-option -g base-index 1
+set-window-option -g pane-base-index 1
+
+# Double-tapping prefix jumps to last window
+unbind l
+unbind C-f
+bind-key C-f last-window
+
+# Split window vertically 
+unbind %
+bind-key | split-window -h
+
+# Split window horizontally
+unbind \"
+bind-key _ split-window
+
+# Resizing panes
+bind-key C-k resize-pane -U 5
+bind-key C-j resize-pane -D 5
+bind-key C-h resize-pane -L 5
+bind-key C-l resize-pane -R 5
+bind-key k resize-pane -U
+bind-key j resize-pane -D
+bind-key h resize-pane -L
+bind-key l resize-pane -R
+unbind M-Up
+unbind M-Down
+unbind M-Left
+unbind M-Right
+unbind C-Up
+unbind C-Down
+unbind C-Left
+unbind C-Right
+
+# Copy-mode keybindings
+unbind C-b
+bind-key -T copy-mode C-a send-keys -X page-up
+bind-key -T copy-mode C-z send-keys -X page-down
+
+# OSX buffer specific command
+bind-key -T copy-mode-vi y send-keys -X copy-pipe pbcopy
+
+# Modified escape time for vim-purposes
+# if necessary OG value is 500... 
+set-option -s escape-time 0
+
+# Modified display time for pane-numbers
+# in necessary OG time is 1000
+set-option -g display-panes-time 2000
+
+# MOUSE options (ewww!)
+set -g mouse on
+
+# Status-bar stuff
+set-option -g status-bg "#184FFF" 
+set-option -g status-fg "#CFF7E7"
+set-window-option -g window-status-current-style fg=black,bg=#CFF7E7
+# fg D8D8F4 
+
+# History limit shortened to 1000 from 2000
+set-option -g history-limit 1000
+
+# Display time increased to 3 seconds
+set-option -g display-time 3000
