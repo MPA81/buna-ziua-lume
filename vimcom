@@ -1,0 +1,45 @@
+VI Commands [My personal reference on how to use the worlds most prolific text editor]
+[We will attempt to organize this at some point, but don't go holding your breath yet]
+
+First we need to establish that VI/vim has two separate modes of operation:
+they are    1)Insert mode   -   where we type whatever needs to be seen
+            2)Command mode  -   this is where vim does its editing
+
+The single most asked question on StackOverflow, for the longest time was:
+"How do I exit Vim?". And I admit, the first time that you experience interacting with
+what may eventually become your best friend, the first thought you will more than probably
+have is not "How do I make this program work for me?", but "What fresh hell is this?" and
+"How in the world do I get out of here?"...
+Without further ado:
+    1)ZZ    -   Save and exit
+    2):q!   -   Quit and exit (no save) 
+                [the ! [exclamation mark] is there to force the exit; vim normally informs
+                you if you have unsaved work and will not permit you to run away from it.] 
+
+Something odd that you may notice in the second option above is the use of the : [colon].
+While in command mode some items may require this precursor.  All the commands that I list
+here, that require a colon, will be listed with it present.
+
+Entering insert mode:
+    1)i     -   start inserting text before the current cursor location
+    2)a     -   start inserting text behind the current cursor location
+    3)I     -   start inserting text at the begining of the current line
+    4)A     -   start inserting text at the end of the current line
+    5)o     -   start a new line below the curent one
+    6)O     -   start a new line above the current one
+
+Exiting insert mode is done by the simple use of the:
+    -)Esc [Escape]  -   Exit insert mode
+
+Once you get used with having to exit insert mode, you will find yourself reaching for
+that escape key in programs that do not require it... well it becomes a problem.
+
+Moving around while in command mode:
+    1)h     -   move left
+    2)j     -   move down
+    3)k     -   move up
+    4)l     -   move right
+    5)0     -   move to the beggining of the line 
+    6)$     -   move to the end of the line
+
+[to be continued]
