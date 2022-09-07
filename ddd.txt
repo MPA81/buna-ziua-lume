@@ -1,0 +1,1023 @@
+...
+
+These are my principles and if you don't like them, I have others.
+    --Groucho Marx
+
+But fair warning, brother, miracles, like deals with the devil, come with strings attached,
+something is always expected in return.
+    --Vikings Vallhala
+
+What's happened happened. Which is an expression of faith in the mechanics of the world.
+Not an excuse to do nothing.
+    --Tenet
+
+A man's fate is a man's fate and life is but an illusion
+    --James Clavell, Shogun
+
+A good writer is an expert on nothing except himself. And on that subject, if he is wise, 
+he holds his tongue.
+    --David John Moore Cornwell
+	[19 Oct 1931 - 13 Dec 2020]
+ 
+[...]self-replicating organisms came into existence on this planet and immediately began
+trying to get rid of each other, either by spamming their environments with rough copies
+of themselves, or by more direct means which hardly need to be belabored.
+    --Neil Stephenson, Cryprtonomicon
+
+The mystic nails a symbol to one meaning that was true for a moment but soon becomes
+false. The poet, on the other hand, sees that truth while it's true but understands that
+symbols are always in flux and that their meanings are fleeting.
+    --Neil Stephenson, Anathem
+
+The truth is that it is natural, as well as 
+necessary, for every man to be a vagabond 
+occasionally.
+    --Samuel H. Hammond
+
+[...]the idea being that all the training in the world was of no use, maybe even worse
+than useless, if you did not know when to use it, and knowing when to use it was a lot
+harder than it sounded because sometimes if you waited too long to go into action, it was
+too late, and other times, if you did it too early, you only made matters worse.
+    --Neil Stephenson, Anathem
+
+Boredom is a mask that frustration wears.
+
+You should not believe a thing only because you like to believe it. [Diax's Rake]
+   --Neil Stephenson, Anathem
+
+Windows [n.]
+A thirty-two bit extension and GUI shell to a sixteen bit patch to an eight bit operating 
+system originally coded for a four bit microprocessor and sold by a two-bit company that 
+can't stand one bit of competition."
+    --Anonymous USEnet post
+
+[...]not a madman totally, just mad enough to be holy.
+    --Frank Herbert, Dune
+
+There is in each of us an ancient force that takes and an ancient force that gives.  A man
+finds little difficulty facing that place within himself where the taking force dwells,
+but it's almost impossible for him to see into the giving force without changing into
+something other than man. For a woman, the situation is reversed.
+    -Frank Herbert, Dune
+
+Deep in the human unconscious is a pervasive need for a logical universe that makes sense.
+But the real universe is always one step beyond logic.
+    -Frank Herbert, Dune
+
+[...] the difference between courage and foolhardiness, [...] Hindsight. Until the
+extended consequences of any action are known, it is both courageous and foolish.
+    -Jim Butcher
+
+When a group comes together around something they love it changes things. It changes how
+they see one another. It becomes a community. Something greater than the sum of its parts.
+    -Harry Dresden(Jim Butcher)
+
+Doesn't matter where you go in the world - if you're good at your job, people who are good
+enough at theirs to see it will respect you for it.
+    -Jim Butcher
+
+They say civilization is a thin veneer over barbarism.
+    -Jim Butcher
+
+A process cannot be understood by stopping it.
+Understanding must move with the flow of the 
+process, must join it and flow with it.
+    -Frank Herbert Dune
+
+[...] a ruler must learn to persuade and not to compel.
+    -Frank Herbert Dune
+
+A world is supported by four things [...] the
+learning of the wise, the justice of the great
+the prayers of the righteous and the valor of the
+brave. But all of these are nothing [...]
+without a ruler who knows the art of ruling
+    -Frank Herbert Dune
+
+The secret of freedom lies in educating people, whereas the secret of tyranny is in keeping 
+them ignorant.
+    --Maximilien Robespierre
+
+This is what free speach is about, but not
+everyone shares that view; to some people, 
+only 'comfortable' or 100% politically-correct
+messages are tolerable, acceptable and 
+permissible.
+   --Dr. Roy Schestowitz
+
+Why do you need an amendment to protect speech
+that everyone agrees with or is only in line
+with community norms?
+   --Dr. Roy Schestowitz
+
+Do not own a computer;
+do not power it on;
+and do not use it.
+   --The three golden rules
+     to computer security as per
+     Robert H. Morris Sr. (1932-2011)
+
+The choice between 'while' and 'for' is arbitrary, based on which seems clearer. The 'for'
+is usually appropriate for loops in which the initialization and increment are single
+statements and logically related, sice it is more compact than 'while' and it keeps the
+loop control statements together in one place.
+    --KnR
+
+Don't waste your time, or ours, on crude
+primate politics.
+    -ESR
+
+Home, like love, hate, war and peace, is one of those words that is so important that it 
+doesn't need more than one syllable.
+    --Jim Butcher
+
+Additionally, we need laws that protect journalists who gain access to classified 
+information. Public disclosure in itself is not espionage, and treating journalism as a 
+crime is extraordinarily harmful to democracy.
+    --Schneier
+
+People who are scared will more readily
+sacrifice privacy in order to feel safer.
+    --Bruce Schneier
+
+There is value in dissent, And, perversely there
+can be value in lawbreaking .  These are both ways 
+we improve as a society, Ubiquitous mass surveillance
+is the enemy of democracy, liberty, freedom, and
+progress
+    -- Bruce Schneier
+
+The American people in general and the black 
+people in particular take careful note of the
+racist California legislature aimed at keeping
+the black people disarmed and powerless.
+  --Bobby Seal to Ronald Reagan, May 2 1967
+
+In 2009, Amazon automatically deleted some editions of George Orwell's Nineteen 
+Eighty-Four from users Kindles because of a copyright issue. I know, you just 
+couldn't write this stuff any more ironically.
+    --Bruce Schneier
+
+In this new world of computing we're no longer expected to manage our computing 
+environment. We trust the feudal lords to treat us well and protect us from harm.
+    --Bruce Schneier
+
+We kill people based on metadata.
+    --Michael Hayden 2014
+
+One way to think about it is that data is content, and metadata is context.
+    --Bruce Schneier
+
+Data is the exhaust of the information age.
+    --Bruce Schneier
+
+Too much sanity may be madness and the maddest of all, to see life as it is and not as it
+should be.
+    --Miguel de Cervantes
+
+Necessity is the plea for every infringement of human freedom, It is the argument of
+tyrants; it is the creed of slaves. 
+    --William Pitt the Younger, Nov 18 1783
+
+Civilized men are more discourteous than 
+savages because they know they can be impolite
+without having their skulls split, as a 
+general thing.
+	--Robert E. Howard
+
+Quantity has a quality all its own.
+	--Stalin
+
+The reason each and everyone of us is alive
+today is the martial prowess and hunting abilities of our ancestors.
+	--Jack Carr
+
+You can be on one side of the law or the 
+other.  But if your make a deal with somebody,
+you keep your word.
+	--Mike Hermantrout
+
+Ca pe mine nu ma strica
+Nici fierul, nici otelul
+Ci numai argintul
+	--Golea from Banat
+
+The promotion and passage of gun laws in the
+wake of of a mass shooting are simply 
+political pandering to make it look like the
+the lawmakers are doing something, even though
+they haven't the foggiest idea of where to 
+look for a solution.
+	--William Connell Cawthon Jr    
+
+The past cannot be changed. The future is yet in your power.
+	--Confucius
+
+Twenty years from now you will be more disapointed by the things you didn't do than by
+the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch
+the tradewinds in your sails.
+	--Mark Twain
+
+Quality is not an act, it is a habit.
+	--Aristotle
+
+International Organization for Standardization acronym is not.  ISO from the greek isos.
+	-as per Charles M. Kozierok
+
+Find what you love and let it kill you.
+	--Charles Bukowski
+
+A good traveler has no fixed plans and is not intent on arriving.
+	--Lao Tzu
+
+I have not failed. I've just found 10,000 ways that won't work.
+	--Thomas Edison
+
+If you can't explain it to a six year old, you don't understand it yourself.
+	--Albert Einstein
+
+It's not what you look at that matters, it's what you see.
+	--Henry David Thoreau
+
+Toute nation a le gouvernement qu'elle merite.
+Every nation has the government it deserves.
+	--Joseph de Maistre (1753-1821)
+
+The price of anything is the ammount of life you exchange for it.
+	--Henry David Thoreau
+
+A life spent making mistakes is not only more honorable, but more useful than a life spent
+doing nothing.
+	--George Bernard Shaw
+
+There are no limits. There are only plateaus. And you must not stay there. You must go
+beyond them.
+	--Bruce Lee
+
+Impossible is just a big word thrown around by small men who find it easier to live in the 
+world they've been given than to explore the power they have to change it. Impossible is not 
+a fact. It's an opinion. Impossible is not a declaration. It's a dare. Impossible is potential. 
+Impossible is temporary. Impossible is nothing.
+    --Muhammad Ali
+
+I believe in the ancient.
+I also believe in the new.
+If tradition is off?
+Then tell me how so.
+  --brazimarius
+  W12919
+
+  M-1T0 W0T0 F0S0 S1
+
+The devil is on my side, he is a good communist.
+    —Stalin
+
+A government that seeks to disarm you is preparing to do something for which you would 
+probably shoot them.
+    —Unknown 
+
+"If it keeps up, man will atrophy all his limbs but the push-button finger." 
+– Frank Lloyd Wright
+
+UNIX is supported by IBM, like a hanging man is supported by rope.
+
+What’s the difference between a cannibal and a liberal?  A cannibal doesn’t eat his friends.”
+  -LBJ
+
+A planet full of people ment nothing against the dictates of economic necessity!
+  -Isaac Asimov
+
+There are depths in feminine psychology, which, without experience, defy analysis.
+  -Isaac Asimov
+
+Only the ignorant and the inexperienced are in total opposition.
+   -Sir Arthur Conan Doyle
+
+The greatest obstacle to discovery is not ignorance, but the illusion of knowledge.
+    - Daniel Boorstin
+
+Get the fuck out of my way!  The fuck is a punctuation mark in this instance.
+    Nathan H.
+
+[...]life is hard sometimes, but if you stay with it and keep moving forward, you’ll prevail[...]
+
+If something just doesn’t look right, it’s probably not.
+
+It's true that most of our ancestors were illiterate, and lived short, agonizing 
+lives. But they weren't miserable because they couldn't read or write, they were 
+miserable because they didn't have buttons that spit out goods and services.
+  — Garret Birkel, commentary on Stephensons Command Line Essay
+
+[...]the only reason he was alive today was that, throughout history, people in 
+his lineage had been good at fighting to defend the tribe and at providing sustenance 
+for their family.  Killing was not so much about taking a life, it was about sustaining 
+life[...]
+  —Jack Carr, The Terminal List, Pg. 255
+
+Best dreams and worst nightmares have the same people in them.
+ —Philippos Syrigos
+
+I like nonesense, it wakes up the brain cells.
+—Dr. Seuss
+
+Fight with every advantage you can get
+  —Jack Carr
+
+One might accept death reasoningly, with every aspect of the conscious mind, but the 
+body was a brute beast that knew nothing of reason.
+  —Isaac Asimov 
+
+There never can be a man so lost as one who is lost in the vast and intricate corridors 
+of his own lonely mind, where none may reach and none may save.  There never was a man 
+so helpless as one who cannot remember.
+   —Isaac Asimov 
+
+“Don’t your lot disapprove of guns?”
+“Unless they’re in the right hands.
+Then they give weight to a moral argument. I think”
+    -Good Omens
+
+"The most exciting phrase to hear in science, the one that heralds discoveries, is not 
+'Eureka!' but 'Now that's funny...'"
+    - Isaac Asimov
+
+A vote is like a rifle; it’s usefulness depends upon the character of the user.
+—Theodore Roosevelt 
+[October 27, 1858 – January 6, 1919,   26th President of the United States]
+
+I don’t think the outside world realizes how cool it really is there ... people are 
+generally ignorant of the situation in Israel and they just read the headlines. They 
+don’t realize that Israel is a democracy in a sea of fucked-up countries. A true 
+democracy with the Left and Right able to express themselves.
+  Jean-Jacques Burnel (bassplayer for the stranglers)
+
+Katipunan society?
+
+ \_(“.)_/
+
+Arrest! Need it be said that it is a breaking point in your life, a bolt of lightning 
+which has scored a direct hit on you?
+                -Aleksandr Solzhenitsyn 
+
+Good leaders wait to be called and they give up their powers when they are no longer 
+needed.  Selfish men and fools put themselves first and keep their power until someone 
+throws them out.  It is no good to have a way where selfish men and fools fight with each 
+other to be leaders, while the good ones watch.
+          -Kent Nerburn
+
+
+Everyone’s a victim in America these days. It’s our new national pastime.
+             -Kent Nerburn
+
+"Anytime someone puts a lock on something you own, against your wishes, and doesn't give 
+you the key, they're not doing it for your benefit."
+    Doctorows law.
+
+[...] If you forget all the other commands, remember this one.
+         —GNU/Linux less man page, 
+             (Referencing h or H command)
+
+Politicians, ugly buildings and whores, all get respectable if they last long enough.
+   —Chinatown
+
+May I never be complete.
+May I never be content.
+May I never be perfect.
+    -Palahniuk
+
+There is serenity in Chaos.
+Seek ye the Eye of the Hurricane.
+
+IT IS MY FIRM BELIEF THAT IT IS A MISTAKE TO HOLD FIRM BELIEFS
+(Principia discordia)
+
+The Net(internet) interpreters censorship as damage and routes around it.
+       -John Gilmore
+
+Any sufficiently advanced technology is indistinguishable from magic.
+        -Arthur C. Clarke
+
+[...] property is no mere social convention or game, but a critically important evolved 
+mechanism for the avoidance of violence.
+          -ESR
+
+1. Every good work of software starts by scratching a developers personal itch.
+2. Good programmers know what to write.  Great programmers know what to rewrite (and reuse).
+3. “Plan to throw one away; you will, anyhow.”(Fred Brooks, The Mythical Man-Moth, Chapter 11)[“If you plan to throw one away, you will throw away two”(Jon Bentley comment on Brooks observation)].
+4. If you have the right attitude interesting problems will find you.
+5. When you lose interest in a program, your last duty is to hand it off to a competent successor.
+6. Treating your users as co-developers is your least-hassle route to rapid code improvement and effective debugging.
+7. Release early.  Release often.  And listen to your customers.
+8. Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the fix obvious to someone.
+9. Smart data structure and dumb code works a lot better than the other way around.
+10. If you treat your beta-testers as if they’re your most valuable resource, they will respond by becoming your most valuable resource.
+11. The next best thing to having good ideas is recognizing good ideas from your users.  Sometimes the latter is better.
+12. Often the most striking and innovative solutions come from realizing that your concept of the problem was wrong.
+13. “Perfection ( in design) is achieved not when there is nothing more to add, but rather when there is nothing more to take away.” —Antoine de Saint-Exupéry
+14. Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected.
+15. When writing gateway software of any kind, take pains to disturb the data stream as little as possible - and never throw away information unless the recipient forces you to!
+16. When your language is nowhere near Turing-complete, syntactic sugar can be your friend.
+17. A security system is only as secure as its secret.  Beware of pseudo-secrets
+18. To solve an interesting problem, start by finding a problem that is interesting to you.
+19. Provided the development coordinator has a communications medium at least as good as the internet and knows how to lead without coercion, many heads are inevitably better than one.
+                  —ESR
+
+God created war so that Americans would learn geography.
+                     —Mark Twain
+
+Copyleft, all wrongs reserved.
+
+Câte bordeie atâtea obiceie!
+    -old romanian saying
+
+Rău era cu ‘was ist das’
+Da-i mai rău cu ‘davai ceas’
+De la Nistru pân la Don,
+Davai ceas, davai palton,
+Davai ceas, davai moșie,
+Harașo, tovărășie.
+    -Constantin Tănase
+
+Ideals are like stars: you can't actually reach them, but you can orient yourself by them. 
+Idealurile se aseamană cu stelele: nu poți ajunge la ele, în schimb te poți orienta.
+    -Constatin Tănase
+
+Sinceritatea este un pericol numai pentru ignoranți.
+    -Constantin Tănase
+
+Giving a man a sword is like giving a woman a looking glass; 
+they have eyes left for nothing else.
+              The Long Ships, Pg. 76
+
+Your focus determines your reality!
+
+Uisge baugh/ Uisce Beatha
+
+Damnatio memoriae
+
+România este locuită de români şi înconjurată de români.
+    —Nicolae Iorga
+
+Fiecare bărbat avea un topor, o sabie şi un junghier pe care le ţinea lângă el tot timpul.
+    —Ahmad Ibn Faladan, 922
+
+Vai, mie, văd un trib fioros şi sălbatic care se adună fără teamă în jurul oraşului, 
+pustiind mahalele, distrugând şi prefăcând totul în praf şi pulbere.
+   —Photius 860
+
+”A furore normannorum, liber nos, domine”(n.r.Păzeşte-ne Doamne, de furia oamenilor nordului). 
+
+There is no such thing as pure pleasure; some anxiety always goes with it.
+    --Ovid
+
+[...]hit them harder than they hit [you], don’t cry, don’t tell tales, stand up for yourself, 
+be a man, have a little bit of pride, some self-respect[...]
+    The Football Factory Pg.231
+
+2230  /*
+...
+2238  * You are not expected to understand this.
+2239  */
+   UNIX V6
+
+"Imbecility: a more or less advanced feebleness of the intellectual faculties. Are you with 
+me so far? That weakness of mind which, without depriving the person entirely of his reason, 
+leaves only the faculty of conceiving the most common and ordinary ideas. It varies in degree 
+from merely excessive folly to an almost total vacuity of mind. That's our boy."
+                   From Black's Law Dictionary.
+                   Hunter S. Thompson 2004
+                   regarding George W Bush.
+
+The most hopelessly stupid man is he who is not aware that he is wise.
+     -Asimov 'Second Foundation' pg. 120
+
+I should say that 95 percent of it is incredibly dull; endless infighting among political 
+groups, endless justification of policies whose wisdom I cannot possibly judge, endless 
+homilies on ethical matters which, even when enlightened, and they usually aren't, are 
+couched with such infuriating self-righteousness as to almost enforce violation.
+   -Asimov "Prelude to Foundation" pg.262 
+
+Religions tend to accumulate wealth when successful and that eventually tends to distort 
+the economic development of a society.
+  --Asimov
+
+You can't rob a bank on charm and personality.
+   -Willie Sutton
+
+ "All the stores will open if you say the magic words. The magic words are: ‘Up against 
+ the wall motherfucker this is a stick up!’”
+      Amiri Baraka (born Everett LeRoi Jones)
+
+Anyone who goes to see a psychiatrist ought to have his head examined.
+   Samuel Goldwyn
+
+I’m willing to admit that I may not always be right, but I am never wrong.
+   Samuel Goldwyn
+
+Failure to observe what is in the mind of another has seldom made a man unhappy; but those 
+who do not observe the movements of their own minds must of necessity be unhappy,
+
+And you will give yourself relief, if you do every act of your life as if it were the last [...]
+    Pg 9 Book 2
+
+A man who looked to what ought to be done, not to the reputation that is got by a man's acts.
+  Marcus Aurelius, Meditations pg5
+
+My father was a mulatto, my grandfather was a Negro, and my great-grandfather a monkey. You 
+see, Sir, my family starts where yours ends.
+    -Alexandre Dumas (père)
+
+Even the best and the kindest always look enviously at those who have been given more.
+    -Sergei Lukyanenko
+
+‘I disapprove of what you say, but I will defend to the death your right to say it.' 
+    -Voltairean Principle according to 
+    Evelyn Beatrice Hall 1919
+
+Am cerut putere…
+Si Dumnezeu mi-a dat dificultati pentru a ma face puternic.
+Am cerut intelepciune…
+Si Dumnezeu mi-a dat probleme ca sa le rezolv.
+Am cerut prosperitate…
+Si Dumnezeu mi-a dat un creier si muschi pentru a munci.
+Am cerut sa pot sa zbor…
+Si Dumnezeu mi-a dat obstacole de a le depasi.
+Am cerut iubire..
+Si Dumnezeu mi-a dat oameni pe care sa ii ajut in problemele lor.
+Am cerut favoruri…
+Si Dumnezeu mi-a dat potential.
+Nu am primit nimic din ce am cerut…
+Dar am primit tot ce aveam nevoie
+    -unknown 
+
+What an unfortunate instrument the guitar is!  An instrument of such great nobility, a 
+genuine monarch of music - reduced to a pitiful lump of wood with six strings, constantly 
+abused by people with no ear and no voice.
+    /Sergei Lukyanenko - Daywatch
+
+It's fuck-this-shit o'clock
+    --D.A. Best
+
+I have no God but landscape, and no expectation of death but extinction.
+    --LeCarre
+
+[...] my ancient faith teaches me that all men are created equal and there can be no moral 
+right in connection with one man making a slave of another.
+
+Persia hasn't been a country since 637 AD.  They're called Iranians!
+
+Revenge is never about the greater good.  It's a visceral need that has to be satisfied or 
+the strong lose focus.
+
+The distinction in between good and evil is meaningless if one does not have the freedom to 
+choose between them.
+
+What is teaching but the art of planting and nurturing power?  [...] prattle on about lonely 
+impulses of delight and the gift of knowledge, and think that teaching is a trade like 
+metalsmithing or healing or telling lies on television. It is not.  It is the dissemination 
+of power onto a new generation and nothing less. [...] lessons demand real risk in order to 
+attain their true rewards.
+  --Jim Butcher
+
+
+Shame, child, is for those who fail to live up to the ideal of what they believe they should be.
+     Jim Butcher, changes
+
+-You are driving me crazy!
+-Well that's not a long time in the car for you now is it?
+I slept on the couch that night.
+    -- Jacob deBruce.
+
+“The Socialist who finds his children playing with soldiers is usually upset, but he is never 
+able to think of a substitute for the tin soldiers; tin pacifists somehow won’t do.”
+    — George Orwell 
+
+A great startup becomes successful because it stays true to its core ideals. Two middle 
+fingers in the air to the institution… but then like a gypsy moth, if it forgets where 
+it came from, it will become administratively top heavy, lose its culture, and experience 
+its slow and inexorable decline.
+  The chive
+
+A society that can punish a marijuana offender more severely than a murderer is caught in 
+the grip of a deep psychosis.  It has a bad case of reefer madness.  For too long the laws 
+regarding marijuana have been based on racial prejudice, irrational fears, metaphors, 
+symbolism, and political expediency.  We need a marijuana policy that is calmly based on 
+the facts.  An end to the war on marijuana will not come from Congress or the president, 
+from the DEA, the police, the prisons, or the courts.  It will come from citizen activism 
+and the ballot box.  It will come when ordinary people make their views known.  The 
+government's behavior will not withstand public scrutiny for long.  This war is over if you 
+want it.
+    -Eric Schlosser 2003
+
+There is a distinct feeling of emptiness that always accompanies the ride south out of the 
+Prahova Valley.  It feels as if my soul belongs here and a little piece of it always remains 
+somewhere North of here.
+    08.13.2015 20:30 Comarnic, RO
+
+Cardo main N-S road
+Decumanus E-W road
+
+Regulatory capture refers to the "situation where regulators charged with promoting the public 
+interest defer to the wishes and advance the agenda of the industry or sector they ostensibly 
+regulate."
+
+"You get what you deserve", it's an old saying.  One that survived the years because it's true.  
+For the most part.  But not for everyone.  Some get more than they deserve.  Because they 
+believe they aren't like everyone else.  That the rules, the ones people like me and you, the 
+people that work and struggle to live our lives, just live, don't apply to them.  That they can 
+do anything and live happily ever after, while the rest of us suffer.  They do this from the 
+shadows.  Shadows that we cast with our indifference.  With a perversive lack of interest in 
+anything that doesn't directly affect us, we, in the here and now.
+Or maybe it's just the shadow of weariness.  Of how tired we are, struggling to claw our way 
+back to a middle class that no longer exists, because of those who take more than they deserve.  
+And they keep taking, until all that's left for the rest of us is a memory of how it used to be 
+before the corporations and the bottom line decided we didn't matter any more.
+
+No republic in history has lasted longer than 300 years, and this nation may not long endure as 
+a great power unless it finds the eyes to see things as they are in the world.
+         -Tim Weiner Legacy of Ashes
+
+Up onto the overturned keel,
+Clamber, with a heart of steel,
+Cold is the ocean's spray,
+And your death is on it's way
+With maidens you have had your way
+Each must die some day!
+  Vikings 
+
+And the fanatic is always concealing a secret doubt.
+   George Smiley
+
+People should learn to see and so avoid all danger.
+Just as a wise man keeps away from mad dogs, so one should not make friends with evil men.
+
+Whoever fights monsters should see to it that in the process he does not become a monster.  
+For when you look long into an abyss, the abyss also looks into you.
+  --Nietzsche 
+
+All men dream: but not equally.  Those who dream by night in the dusty recesses of their minds 
+wake in the day to find that it was vanity; but the dreamers of the day are dangerous men, for 
+they may act their dreams with open eyes, to make it possible.
+  --T E Lawrence
+
+Many a prophecy, by the mere force of its being believed is transmuted to fact.  These are 
+'self-fulfilling prophecies.'
+
+It makes no difference what men think of war... War endures. As well ask what men think of 
+stone.  War was always here.  Before man was, war waited for him.
+The ultimate trade awaiting the ultimate practitioner.
+--Cormac McCarthy, Blood Meridian 
+
+12 men is the minimum for a brigade.
+  --TG
+
+Eu am făcut piatra să cânte pentru omenire.
+    Constantin Brâncuși
+
+Create like a god, command like a king, work like a slave.
+Muncește ca un rob, poruncește ca un rege, creează ca un zeu!
+    Constantin Brâncuși
+
+All is bad that is imposed from without.
+    IA foundation and earth pg 128
+
+Don't ever dance with the devil in the pale moonlight unless you know the tune.
+  --old southern saying
+
+I put no stock in religion.  By the word religion I've seen the lunacy of fanatics of every 
+denomination be called the will of God.  I've seen too much religion in the eyes of too many 
+murderers.  Holiness is in right action and courage on behalf of those who cannot defend 
+themselves,
+
+No business which depends for existence on paying less than living wages to its workers has 
+any right to continue in this country.
+        -FDR
+
+My dear girl, there are some things that just aren’t done.  Such as drinking Dom Perignon ’53 
+above a temperature of 38 degrees Farenheight. That’s as bad as listening to the Beatles 
+without earmuffs.
+  James Bond, Goldfinger
+
+To replace a bell donated during World War I to make cannons of it, another one was brought 
+in 1923 from Apolda (Germany), with the carved inscription in German reading: "The sister 
+who sang here rang on the battlefield"
+    --  Evangelical church in Bod (first built XIII century)
+
+Parents always lie to their children, to prepare them for the way they will be later treated 
+by the government.
+    --unknown 
+
+Balls is knowing the cost and doing it anyway.
+    -Tom Sellek
+
+Need I remind you 
+that I don't need 
+the swine flu 
+to be a sick pig.
+    -Eminem
+
+I heartily accept the motto, "That government is best which governs least"; and I should like 
+to see it acted up to more rapidly and systematically. Carried out, it finally amounts to this, 
+which also I believe—"That government is best which governs not at all"; and when men are 
+prepared for it, that will be the kind of government which they will have.”
+  --Henry David Thoreau
+
+Never let your sense of morals prevent you from doing what is right!
+        Isaac Asimov 'Foundation'
+
+How do you expect to run with the wolves come night when you spend all day sparring with the 
+puppies.
+    Omar Little
+
+The Three Laws of Robotics
+1. A robot may not injure a human being or through inaction, allow a human being to come to harm.
+2. A robot must obey the orders given it by human beings, except where such orders would 
+conflict with the First Law.
+3. A robot must protect its own existence, as long as such protection does not conflict with 
+the First or Second Law.
+
+Put him in a chicken suit.  Throw him off the roof.
+    --unk
+
+VALAHIA
+A historical region of southeast Romania between the Transylvanian Alps and the Danube River. 
+Founded as a principality c. 1290, it was ruled by Turkey from 1387 until it was united with 
+Moldavia to form Romania (1861).
+
+'We guard the gates of hell'
+      --Emmanuel
+
+'I have seen the best minds of my generation cleaning up puke for minimum wage'
+   --First Ave. Staff art show bi-line
+
+I boost cars and pop fools.  Mature ain't really my thing
+   Franklin gtav
+
+You are perfect Crazycakes!
+    Trevor gtav
+
+
+FRANC TIREUR
+
+
+JUS AD BELLUM
+
+RIGHT AUTHORITY
+The principle of right authority suggests that a war is just only if waged by a legitimate 
+authority. Such authority is rooted in the notion of state sovereignty.
+
+RIGHT INTENTION
+According to the principle of right intention, the aim of war must not be to pursue narrowly 
+defined national interests, but rather to re-establish a just peace. This state of peace should 
+be preferable to the conditions that would have prevailed had the war not occurred.
+
+REASONABLE HOPE
+Just wars must have a reasonable chance of success. According to the principle of reasonable 
+hope, there must be good grounds for believing that the desired outcome can be achieved. This 
+principle involves weighing the costs and benefits of waging war and emphasizes that human life 
+and economic resources should not be wasted on war efforts that are certain to fail.
+
+PROPORTIONALITY 
+The principle of proportionality stipulates that the violence used in the war must be 
+proportional to the attack suffered. For example, if one nation invades and seizes the land of 
+another nation, this second nation has just cause for a counterattack in order to retrieve its 
+land. However, if this second nation invades the first, reclaims its territory, and then also 
+annexes the first nation, such military action is disproportional.
+
+LAST RESORT
+The principle of last resort stipulates that all non-violent options must first be exhausted 
+before the use of force can be justified.
+
+
+You are not a superhero you are just a douchebag
+    --Jersey Morgan
+
+Freud in "Civilization and Its Discontents" (W.W. Norton, New York: 1961; pg. 104) said: "We can
+only be satisfied, therefore, if we assert that the process of civilization is a modification 
+which the vital process experiences under the influence of a task that is set it by Eros and 
+instigated by Ananke -- by the exigencies of reality; and that this task is one of uniting 
+separate individuals into a community bound together by libidinal ties."
+
+
+Then I saw the Congo creeping through the black
+Cutting through the jungle with a golden track
+    Vachel Lindsay 1912
+
+Dă doamne, când ne-o fi mai rău, să ne fie ca acum.
+
+
+Bă, cu asta rămâi, cu ce bagi în gură și ce tragi pe pulă!
+                      [unknown]
+
+Quality is a characteristic of thought and statement that is recognized by a nonthinking 
+process.  Because definitions are a product of rigid, formal thinking, quality can not be 
+defined.
+
+The past exists only in our memories, the future only in our plans.  The present is our 
+only reality.
+
+If you can't define something you have no formal rational way of knowing it exists.
+
+Each of us is sometimes a cretin, a fool, a moron, or a lunatic.  A normal person is just a 
+reasonable mix of these components, these four ideal types. 
+[...]
+A genius uses one component in a dazzling way, fueling it with the others.
+    --Jacomo Belbo, Foucaults Pendulum
+
+You my friend have the worse set of qualities as far as women are concerned.  You are a triple 
+D.  Decent, Dependable and Devoted.
+--
+
+It's called the American Dream 'cause you have to be asleep to believe it.
+                        -George Carlin 
+
+You can go a long way with a smile, You can go a lot further with a smile and a gun.
+                       -Al Capone
+
+[...] to see the world as it really was - mass, density, and force.
+
+ In the world I see - you are stalking elk through the damp canyon forests around the ruins of 
+Rockefeller Center. You'll wear leather clothes that will last you the rest of your life. 
+You'll climb the wrist-thick kudzu vines that wrap the Sears Tower. And when you look down, 
+you'll see tiny figures pounding corn, laying strips of venison on the empty car pool lane of 
+some abandoned superhighway.
+        --Fight Club
+
+a process of continuous learning, rather than mechanical application of a closed system of 
+concepts and rules
+
+You're a good man
+Better than most, might be.  Not as good as some
+
+You need only learn to read a face.  Look at the eyes. The mouth. The muscles here at the 
+corners of the jaw, and here were the neck joins the shoulders.
+
+Begging for help never gets you any.
+
+The horned lord once said that sorcery is a sword without a hilt.  There is no safe way 
+to grasp it.
+
+All men die and women too, and every beast that flies or swims or runs.  It's not the when 
+o' dying that matters, it's the how of it
+
+Valar morghulis - All men must die.
+Valar dohaeris - All men must serve.
+
+I am the sword in the darkness.  I am the watcher on the walls.  I am the fire that burns 
+against the cold, the light that brings the dawn, the horn that wakes the sleepers.  I am 
+the shield that guards the realms of men.
+                      R R Martin.
+
+What kind of a fucking world are we living in?
+                           Tom Waits
+
+For love is the bane of honor, the death of duty.
+
+
+Fear cuts deeper than swords
+The man who fears loosing has already lost.
+
+
+Friday's and Sunday's are days of rest, when no work is supposed to be done.  (Fridays start 
+with Thursday evening and continue into Saturday sunrise.)
+
+Calm as still water,
+Still as a stone,
+Quick as a snake,
+Smooth as summer silk,
+Swift as a deer,
+Slippery as an eel,
+Strong as a bear,
+Swift as a wolverine,
+Quiet as a shadow.
+             Game of Thrones
+
+Most men would rather deny a hard truth than face it.
+              Game of Thrones   
+
+If a bear attacked you in the woods, you'd be to stupid to run away.
+              Game of Thrones
+
+All men carry murder in their hearts, yet even so, the poisoner is beneath contempt.
+              Game of Thrones
+
+A wise man ought always to follow the paths beaten by great men
+               NM
+
+a blunder ought never to be perpetrated to avoid war, because it is not to be avoided, but 
+is only deferred to your disadvantage.
+               NM
+
+men ought either to be well treated or crushed
+               NM
+
+Away and fuck yourself ya cunt.
+
+Cops are alike, the world over.
+    Heinlein 
+
+An honest politician is one that stays bought.
+    Heinlein
+
+Three things only do slaves require, food, work and their gods, and of the three their gods 
+must never be touched, else they grow troublesome.
+    Heinlein
+
+It's a miracle - no need to explain.
+    Heinlein
+
+A tramp is a bum, a parasite, a man that won't work.  A hobo is an itinerant laborer, who 
+prefers casual freedom to security.  He works for his living, but he won't be tied down to 
+one environment.
+    Heinlein
+
+For longer than I can remember
+I've been looking for someone like you
+Someone with a head like yours 
+And the torso too.
+Birds sing
+And you're gonna pay
+        The End
+You should be covered in barbecue sauce.(...)
+It's not nice to embarass people.  You should apologize and eat your eraser.
+            [invader zim, Tak]
+
+
+What did y'all order a dead guy for?
+            Jane, Firefly Ep 12
+
+I'm overstepping my bounds you let me know.
+
+Fulfillment in life involves "loving a good woman and killing a bad man."
+                     Robert Heinlein
+
+Some day you will die, and until you know that, you are useless to me.
+                    Tyler Durden
+
+Arson meets on Monday.
+Assault on Tuesday.
+Mischief meets on Wednesday.
+And Misinformation meets on Thursday.
+Organized Chaos.  The Bureaucracy of Anarchy.  You figure it out.
+Support groups.  Sort of.
+                     Pg. 119
+
+If you get arrested, you're off the Assault Committee.  If you laugh, you're   off the 
+committee.
+                      Pg. 120
+
+Birds and deer are a silly luxury, and all the fish should be floating.
+                      Pg. 124
+
+Chapter 6
+1&2 you do not talk about fight club
+3 When somebody says stop, goes limp, even if he's just faking it, the fight is over
+4 Only two guys to a fight
+5 One fight at a time
+6 No shirts or shoes
+7 Fights will go on for as long as they have to
+8 If it's your first night, you have to fight.
+
+
+If bad ideas were an Olympic sport this would take the the gold.
+              The Walking Dead
+
+[...] since no problem exists in isolation, we must first reduce it to its basic components, 
+then tackle each component in turn.
+      The Mission Song Pg. 245
+
+It's such a chick thing to think life should just go on forever.
+        Palahniuck Stranger than
+                   Fiction Pg. 98
+
+Mediocrity knows nothing higher than itself; but talent instantly recognizes genius [...]
+      Sherlock Holmes Pg 773
+
+
+Machete don't text.
+
+Why would I want to be real person when I'm already a myth.
+                          -Machete
+
+Si vis pacem, para bellum.
+[If you seek peace, prepare for war.]
+      -Publius Flavius Vegetius Renatus
+
+I have no time for the intrigues of human gender classification.
+               -Booth; The American; 146- 
+
+Veni mittere ignem in terram.
+I have come to spread fire over the earth.
+
+For lawless joy a bitter ending waits.
+
+War is useful because it is effective in so many areas.
+
+I must not fear.  Fear is the mind-killer.  Fear is the little-death that brings total 
+obliteration.  I will face my fear.  I will permit it to pass over me and thru me.  And 
+when it has gone past I will turn the inner eye to see it's path.  Where the fear has gone 
+there will be nothing.  Only I will remain.
+        --Dune
+
+Victims are bad enough, saints are worse but martyrs are the living end.
+    --le Carre

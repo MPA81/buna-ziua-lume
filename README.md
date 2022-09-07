@@ -97,3 +97,10 @@ cu resultatul si nu am schimbat nimic
 de ceva timp... o eternitate(?).]
 
 [wget https://raw.githubusercontent.com/MPA81/buna-ziua-lume/master/zshrc]
+
+ddd.txt - just accumulated quotes and some
+other minor items to be remembered.
+[RO | Citate și alte lucruri care doresc
+să-mi amintesc.]
+
+[wget https://raw.githubusercontent.com/MPA81/buna-ziua-lume/master/ddd.txt]
