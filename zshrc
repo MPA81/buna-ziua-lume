@@ -110,7 +110,11 @@ alias all='ls -al'
 
 ### Functions
 ## Hi Knucklehead! In zsh these have their own home:
-## /bin/fns/ ... By the by make them individual files!
+## /bin/fns/. Personally I create a bin/fns in my ~
+## ... By the by, make them individual files!
+## on a new system, run: echo $path | grep bin.
+## if the result is blank run: fpath=(~bin/fns $fpath)
+## then run: autoload <function file name>
 
 # today () {
 #	echo -n "Today's date is: "
