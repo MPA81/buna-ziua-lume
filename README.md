@@ -23,15 +23,15 @@ Whenever I come back to this, I always
 seem to go right back to tmux and vim...
 Guess I just stated my positon in that
 eternal nerd argument.
-[RO | chiar daca informatia continuta nu
-este chiar cea mai de ultima ora, nu te
-astepta la asa ceva, este un punct bun de
-referinta pentru cei care doresc sa inceapa
-a folosi tmux. O nota personala: De si am
-incercat cateva diferite code editors, de 
-fiecare data cand incep din nou, ma intorc
-la tmux si vim... Aceasta este positia mea
-legata de acel vechi argument.]
+[RO | chiar dacă informația conținută nu
+este chiar cea mai de ultimă oră, nu te
+aștepta la așa ceva, este un punct bun de
+referință pentru cei care doresc sa inceapă
+a folosi tmux. O notă personală: De și am
+încercat câteva diferite code editors, de 
+fiecare dată când încep din nou, mă întorc
+la tmux și vim... Aceasta este poziția mea
+legată de acea vechie neînțelegere.]
 
 [wget https://raw.githubusercontent.com/MPA81/buna-ziua-lume/master/tmuxconf]
 
@@ -41,18 +41,17 @@ wrap.  I belive at the time of its
 creation I was learning how to make a
 website responsive and was having a hard
 time finding appropriave view-port
-sizes. While this resolved that
-particular issue it also provides us
-with a quick html template that we can
-start from.
+sizes. This resolved that particular 
+issue and it also provided us with a 
+quick html template to start from.
 [RO | un script foarte simplu in vanilaJS
-facut nintel frumos cu CSS inbracat in
-html ca sa functioneze. Din cate imi
-amintesc, la timpul respectiv, invatam
+facut nințel frumos cu CSS înbrăcat în
+html ca să funcționeze. Din câte îmi
+amintesc, la timpul respectiv, învățam
 responsive web design, si aveam probleme
-gasind un model resonabil.  Am resolvat
-problema si am creat un template html pe
-care il putem folosi rapid]
+gasind un model rezonabil.  Am rezolvat
+problema si am creat, deasemenea, un 
+șablon html pe care îl putem folosi rapid]
 
 [wget https://raw.githubusercontent.com/MPA81/buna-ziua-lume/master/viewport.html]
 
@@ -76,27 +75,34 @@ before I got the result desired.  I am
 however very happy with it and have 
 not made any changes in what feels like 
 an eternity.
-[RO | Nu tin minte de unde am gasit 
-acest sablon, pe care l-am modificat.
-Daca aceasta este produsul dumneavoastra 
-original, ziceti-mi ceva; mi-ar face
-multa placere sa adaug un credit la
-inceput. Folosesc command line foarte
+[RO | Nu țin minte de unde am găsit 
+acest șablon, pe care l-am modificat.
+Daca aceasta este produsul dumneavoastră 
+original, ziceți-mi ceva; mi-ar face
+multă placere sa adaug un credit la
+început. Folosesc command line foarte
 des. De asemenea sistemul meu principal 
-este de ceva timp OSX.  Nu tin minte
-cand OSX a mutat interfata terminal-ului
-de la bash la zsh, dar tin minte ca la
-vremea respectiva au inceput sa-mi 
-sugereze sa-mi schimb shell-ul de fiecare
-data cand deschide-am terminal-ul. Dupa
-un timp am schimbat si am gasit aceasta
+este de ceva timp OSX.  Nu țin minte
+cand OSX a mutat interfața terminal-ului
+de la bash la zsh, dar țin minte că la
+vremea respectivă au inceput a-mi sugera
+să-mi schimb shell-ul de fiecare dată 
+când deschideam terminal-ul. După un 
+timp am schimbat si am găsit această
 configuratie a fii de folos in locul 
 unui bashrc.  M-am jucat cu cea ce 
 zice pentru ceva timp, dar sunt fericit 
-cu resultatul si nu am schimbat nimic 
+cu rezultatul si nu am schimbat nimic 
 de ceva timp... o eternitate(?).]
 
 [wget https://raw.githubusercontent.com/MPA81/buna-ziua-lume/master/zshrc]
+
+metasploit_cmd - a quick starter set of
+metasploit commands with instructions
+[RO | un set de instrucțiuni cu explicații
+pentru programul metasploit]
+
+[wget https://raw.githubusercontent.com/MPA81/buna-ziua-lume/master/metasploit_cmd]
 
 ddd.txt - just accumulated quotes and some
 other minor items to be remembered.

