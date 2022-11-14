@@ -8,7 +8,7 @@ little more friendly towards the outside world, being that the information
 included is indeed intended for public use.
 [RO | Dacă îmi amintesc corect, acesta a fost primul meu repo public. Intenția
 era, și rămâne, ca să fie folositor, nu numai mie dar și altora. Am decis că ar 
-fii bine ca această idee să fie aparentă.]
+fii mai bine dacă această idee ar fii aparentă.]
 
 Legat de ce contine acest repositoriu
 [RO -> EN | regarding what this repository contains]:
@@ -96,6 +96,25 @@ cu rezultatul si nu am schimbat nimic
 de ceva timp... o eternitate(?).]
 
 [wget https://raw.githubusercontent.com/MPA81/buna-ziua-lume/master/zshrc]
+
+zshenv - this file here goes hand with
+the zshrc file.  If you would like to set
+your own function definitions, I
+generally do, and you would like for
+those function definitions to actually
+work... well, in that case this file is
+for you.
+[RO | Aceasta fișă conține material
+important pentru cei care doresc ca 
+functiile personal create, legate de 
+zshrc, să funcționeze.]
+
+[wget https://raw.githubusercontent.com/MPA81/buna-ziua-lume/master/zshenv]
+
+spells - comenzi pentru sisteme linux
+[EN | linux basic comands] 
+
+[wget https://raw.githubusercontent.com/MPA81/buna-ziua-lume/master/spells]
 
 metasploit_cmd - a quick starter set of
 metasploit commands with instructions

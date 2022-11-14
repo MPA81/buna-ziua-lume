@@ -1,0 +1,327 @@
+MUST KNOW LINUX COMMANDS
+
+ls      -   list files/directories in current directory
+   -R   -   list files/folders in current directory as well as subdirectories
+   -al  -   list all, long [first item will be - for normal file or d for directory] 
+   -a   -   list hidden files
+   -ld  -   view permissions for a specific directory
+
+lsof    -   list of open files
+
+cat>filename                -   add content to new file [end with Ctrl+D]
+cat filename                -   display text files
+cat file1 file2 > newfile   -   copy, combine and create new text files
+cat -                       -   read from standard input
+
+less <file_name>            -   displays long text files better that cat
+
+touch <file_name>           -   creates file <file_name>
+                                [also used to modify access and modification times]
+
+rm <filename>               -   delete file [no confirmation]
+   -r                       -   recursive, removes directories, subdirectories, files.
+   -i                       -   interactive (good option to add the recursive)
+
+cp <file_name> <destination>-   copy file <file_name> to <destination> path
+    -r                      -   recursive, copies directories, subdirectories, files.
+
+mv <filename> <newlocation> -   move filename to newlocation
+mv <filename> <newfilename> -   rename filename to newfilename
+
+sudo                        -   permit regular user to do superuser tasks
+
+su <user>                   -   switch to user
+
+mkdir <directory_name>      -   create new directory in current location
+      -p <dir>              -   make parent directories as necessary
+      -v                    -   verbose option
+mkdir /<path>/<directory_name> -create new directory in path 
+
+mkdir <dir1> <dir2> <dir3>  -   create three new directories
+
+rmdir<dir_name>             -   delete dir_name
+
+chmod <permissions> <path>  -   modify permisssions to file residing at <path>
+                                [u(ser)/g(roup)/o(thers)/a(ll) r(ead)/w(rite)/(e)x(ecute)]
+                                [+ to add or - to remove]
+                                [0--- 1--x 2-w- 3-wx 4r-- 5r-x 6rw- 7rwx]
+
+chown <name> <file>	    -	change owner <name> of <file>			    -
+
+chgrp <group_name> <file>   -   change <group_name> owner of <file>
+
+mv <dir_name> <new_dir_name>-   rename dir_name to new_dir_name
+
+pwd                         -   print working directory
+
+file <file_name>            -   tells us what type of a file we are dealing with
+
+strings <file_name>         -   prints sequences of printable characters in files (3+ char)
+
+man                         -   manual file
+    -k <search_term>        -   keyword search of the manual pages
+    -f <search_term>        -   description search of the manual pages
+
+history                     -   shows commands previously used
+
+clear                       -   clears clutter and gives us a clean terminal screen
+
+reset                       -   resets current instance of CLI
+
+grep <search_string>        -   searches input for <search_string>
+     -v                     -   shows all the lines that do not match the searched string
+     -c                     -   displays only a match count
+     -n                     -   shows the matching line and its number
+     -i                     -   match both upper and lower case
+     -l                     -   shows just the name of the file with the string
+     -w                     -   select only matches that form whole words
+     -r                     -   recursive search all files in given dir
+     -A<n>                  -   show n lines after as well
+     -B<n>                  -   show n lines before as well
+
+egrep '<string>' <file>     -   search <file> for <string> and print entire line where found
+                                [same options from above can be applied to this as well]
+      -r                    -   recursive real all files is in given dir and subdirs
+
+command1 | command2         -   pipes the output of command1 into command2
+                    -       -   a single dash at the very end of the pipe explicitly indicates that the  
+
+command1; command2          -   execute command1 then command2, ignore result of command one
+
+command1 && command2        -   execute commmand1 then command2, if and only if command1 was successful
+
+top                         -   snapshot of what is currently happening on the system
+
+htop                        -   interactive processes viewer
+
+ps [aux]                    -   complete system view (as far as running processi)
+
+kill [signal] <PID>         -   default signal is -1, asks <PID> nicely to quit
+                                [if we want <PID> to join Jimmy Hoffa, now, use -9 signal]
+
+locate <file_name>          -   finds file <file_name> 
+                                [IMPORTANT: sudo updatedb needs to be run after file
+                                creation and before command is run]
+
+find <path> -name <file_name> 
+
+tr "a" "b"		            -	translate (or delete characters); basic substitution	
+   		     -d "c"         -   deletes char instead of "translating"
+             -cd "[:digit:]"-   change and delete anything that is not within " "
+
+xargs			            -	read a line of standard input and turn it into 
+                                  a command line argument
+
+groups <user>		        - 	show all groups that <user> belongs to
+
+members <group>		        -	show all users of <group>
+getent group <group>	    -	show info from /etc/group on <group>
+
+addgroup <group>	        -	create a group
+
+adduser <user>		        -	create a user 
+
+adduser <user> <group>	    -	add existing <user> to <group>
+
+useradd <user>              -   low level add user w/o  
+        -m <home_directory> -   create a homedirectory for user
+        -s /bin/<shell>     -   shell to be used by user 
+
+usermod -a -G sudo <user>   -   add user to sudo group
+
+delgroup <group>	        -	delete a group
+
+deluser <user>		        -	delete a user
+
+passwd <user>               -   modify user password
+
+gpasswd                     -
+
+which <command>		        -	gives us current path to a binary
+
+whereis <command>	        -	gives us all paths to a command
+
+env                         -   prints current environment variables
+
+python -c                   -   make python send output to command line
+
+xxd                         -   hexadecimal translator
+    -b                      -   binary
+
+base64                      -   base64 translator
+        -d                  -   decode base64
+
+echo -e                     -   interpret metacharacters
+
+export $<VARIABLE>          -   export a variable
+
+
+crontab -l                  -   list scheduled jobs
+        -e                  -   edit scheduled jobs
+
+id                          -
+
+john                        -   use unshadow first
+
+nslookup <webaddress>       -   
+
+gedit                       -   new gui option for vim and nano
+
+    &                       -   at the end of any command makes it a background process
+
+_________________________________________________________________________________________
+FILTERS
+head [-n] <file_path>       -   prints the first n number of lines in file at <file_path>
+                                [Default n=10]
+
+tail [-n] <file_path>       -   prints the last n number of lines in file at <file_path>
+                                [Default n=10]
+
+sort <file_path>            -   sort file at file_path 
+                                [by default alphabetically; many options available]
+     -r                     -   reverse sorting
+     -n                     -   numerical sort
+     -f                     -   case insensitive sort
+     -u                     -   much like piping sort to unique
+
+nl [-options] <file_path>   -   number lines
+    -s                      -   specify what should be printed after the number
+    -w                      -   specify how much padding should go before the numbers 
+
+wc <file_path>              -   by default gives us word count, char count and line count
+   -l                       -   line count only
+   -w                       -   word count only
+   -m                       -   character count only
+                                [any of the above three may be mixed]
+
+cut [-options] <file_path>  -  get specific content as per separator [default TAB]
+    -d '<separator>'        -  in single quotes we specify what the separator looks like 
+    -f n[,m,p]              -  specify the number of the field we would like
+                               [if more than one field, separate with commas]
+
+sed <expression> <file_path>-   stream editor allows search and replace (and so much more)
+                                [basic expression: 's/<search_for>/<replace_with>/g']
+
+uniq [options] <file_path>  -   unique removes duplicate lines from the data
+                                 sort items first. (sort -u does both)
+
+tac <file_path>             -   cat in reverse, prints a file last line to first
+                                [in osx this functionality is provided by tail -r]
+
+tee                         -   take stdin to stdout and file as well
+
+awk -F ','                  -   
+
+mandb                       -   update manual database
+
+[to be further researched]
+diff
+    
+END FILTERS
+__________________________________________________________________________________________
+
+Ctrl-c                      -   GET OUT OF TROUBLE COMMAND 
+Ctrl-d                      -   return to command line (end of file signal)
+
+Ctrl-Shift-P                -   paste to terminal
+
+Ctrl-A                      -   beginning of command on command line
+
+Ctrl-E                      -   end of command on command line
+
+Ctrl-Alt-F<console_number>  -   virtual console
+                                [we normaly are at Ctrl-Alt-F7]
+
+Terminal>Edit>Keyboard Shortcuts
+
+REMEMBER:       /           -   is our root directory (its called a slash dude)
+                \           -   is the escape character (aka dash!!!)
+                    DO NOT CONFUSE THE TWO
+
+________________________________________________________________________________________
+REDIRECTION
+
+stdin (device is keyboard)
+stdout (device is screen)
+
+command > file_name         -   redirects the output of command to file_name
+                                [writes to file (prev content deleted) instead of stdout]
+                                [we can also redirect to devices:
+                                    example: cat mother.mp3 > /dev/audio]
+
+command >> file_name        -   appends output of command to file_name
+                                [writes to file (prev content kept) instead of stdout]
+
+INPUT REDIRECTION
+command < file_name         -   appends file_name to command
+
+FILE DESCRIPTORS
+            File Descriptor
+STDIN   -       0
+STDOUT  -       1
+STDERR  -       2
+
+command 2> file_name        -   redirects errors to file_name
+            /dev/null       -   your own personal black hole, useful to send errors to 
+
+command > file_name 2>&1    -   redirects stderr to target of stdout (which is file_name)
+
+END REDIRECTION
+_________________________________________________________________________________________
+
+pr  -x                      -   divides data into "x" columns
+    -h "header"             -   assigns "header" value as the report header
+    -t                      -   does not print the header and top/bottom margins
+    -d                      -   double spaces the output file
+    -n                      -   line numbers
+    -l <page_length>        -   defines the lines (page length) in a page. [Default is 56]
+    -o <margin>             -   formats the page by the margin number
+_________________________________________________________________________________________
+
+echo $SHELL                 -   tells us what shell we are running
+echo $<VARIABLE>            -   tells us values for VARIABLE
+
+________________________________________________________________________________________
+
+WILDCARDS
+    *       -   zero or more characters
+    ?       -   a single character
+    [ ]     -   a range of characters
+
+________________________________________________________________________________________
+
+REGULAR EXPRESSIONS [not to be confused with WILDCARDS above]
+    .       -   a single char
+    ?       -   preceding char matches 0 or 1 times only
+    *       -   preceding char matches 0 or more times
+    +       -   preceding char matches 1 or more times
+    {n}     -   preceding char matches exactly n times
+    {n,m}   -   preceding char matches at least n times but no more than m times
+    [abc]   -   char is one of a, b or c
+    [^cde]  -   char is not one of c, d or e
+    [f-j]   -   matches a range, in this case: f, g, h, i, j
+    ( )     -   allows a groups of characters, you know, like a string
+    |       -   logical OR operation
+    ^       -   matches begining of the line
+    $       -   matches end of the line
+    \       -   removes special char meaning
+
+________________________________________________________________________________________
+
+VIM STUFF
+:set paste	-	followed up by insert mode and then mouse paste
+:set nopaste	-	
+
+COMPLEX SPELLS
+
+ls | grep '<search_pattern>' | tr "\n" "\0" | xargs -0 rm	-	
+	the command above was acquired from stackoverflow. What it does,
+	step by step is: first two items are simple and should be obvious,
+	we are listing files (and directories that fit a specific 
+	<search_pattern>. Item 3 in the pipes translates the classic new line
+	character (each item found by ls|grep sits on its own line) and 
+	changhes it into a null character that Item 4 xargs (standard input
+	new line to command line argument) recognizes as end of the argument
+
+Screenshot
+import -window root -pause <n> Pictures/<fileName>.png
