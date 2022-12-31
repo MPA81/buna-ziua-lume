@@ -323,5 +323,19 @@ ls | grep '<search_pattern>' | tr "\n" "\0" | xargs -0 rm	-
 	changhes it into a null character that Item 4 xargs (standard input
 	new line to command line argument) recognizes as end of the argument
 
+grep -o '$.*' <file-name> | tr -d '$' | awk '{x = x + $}END{print x}'
+    the awk part of the above command was acquired from stackoverflow.
+    "https://stackoverflow.com/questions/926069/add-up-a-column-of-numbers-at-the-unix-shell"
+    specifically as answered by Greg Reynolds on May 29, 2009.
+    This command adds up any dollar values (values preceeded by a '$' character} from a
+    text file. What it does, step by step is: searches for a pattern in a file; the
+    pattern in question is the '$' character, followed by any character, then any number
+    of characters; the -o flag indicates that the matching string alone should be returned
+    and not the entire line; the resulting string is piped into the tr [translate
+    characters] command, the -d flag tells the command to delete the character specified,
+    in this case '$'.  The result is piped into the awk command, which does the following,
+    created a variable called x, variable adds the current line value to itself, after the
+    last input line (END) awk prints the value of x.
+
 Screenshot
 import -window root -pause <n> Pictures/<fileName>.png
