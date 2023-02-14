@@ -108,6 +108,31 @@ setopt HIST_IGNORE_SPACE
 
 alias all='ls -al'
 
+### Other aliases [delete this line, then pick and choose'
+#alias python=python3
+#alias vi='/usr/bin/vim'
+#alias tmux="TERM=screen-256color-bce tmux"
+#
+##OSX specific
+#alias nap='networksetup -airportpower en0'
+#alias nas='networksetup -airportnetwork en0'
+#alias nar='networksetup -addpreferredwirelessnetwork en0'
+#alias nal='networksetup -listpreferredwirelessnetwork en0'
+#
+##Linux specific
+#alias nessus='xdg-open https://<insert_correct_local_here>'
+#
+#sudo aliases
+#alias wireshark='sudo wireshark'
+#alias tcpdump='sudo tcpdump'
+#alias netdiscover='sudo netdiscover'
+#alias msfconsole='sudo msfconsole'
+#alias systemclt='sudo systemctl'
+#alias ufw='sudo ufw'
+#alias iptables='sudo iptables'
+#alias snort='sudo snort'
+#alias nmap='sudo nmap'
+
 ### Functions
 ## Hi Knucklehead! In zsh these have their own home:
 ## /bin/fns/. Personally I create a bin/fns in my ~
