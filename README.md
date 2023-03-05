@@ -122,10 +122,3 @@ metasploit commands with instructions
 pentru programul metasploit]
 
 [wget https://raw.githubusercontent.com/MPA81/buna-ziua-lume/master/metasploit_cmd]
-
-ddd.txt - just accumulated quotes and some
-other minor items to be remembered.
-[RO | Citate și alte lucruri care doresc
-să-mi amintesc.]
-
-[wget https://raw.githubusercontent.com/MPA81/buna-ziua-lume/master/ddd.txt]
