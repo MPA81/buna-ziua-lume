@@ -5,8 +5,10 @@ ls      -   list files/directories in current directory
    -al  -   list all, long [first item will be - for normal file or d for directory] 
    -a   -   list hidden files
    -ld  -   view permissions for a specific directory
+   -lh  -   use unit suffixes (B, K, M, G, T, P)
 
 lsof    -   list of open files
+     -i -   internet and network connections [optional :<port_number>]
 
 cat>filename                -   add content to new file [end with Ctrl+D]
 cat filename                -   display text files
@@ -29,6 +31,7 @@ mv <filename> <newlocation> -   move filename to newlocation
 mv <filename> <newfilename> -   rename filename to newfilename
 
 sudo                        -   permit regular user to do superuser tasks
+     -l                     -   list allowed commands for the current user
 
 su <user>                   -   switch to user
 
@@ -95,6 +98,13 @@ top                         -   snapshot of what is currently happening on the s
 htop                        -   interactive processes viewer
 
 ps [aux]                    -   complete system view (as far as running processi)
+   axjf                     -   ASCII are process hierarchy
+   -e                       -   show all processi
+   -f                       -   full-format listing
+   -j                       -   jobs format
+   -l                       -   long format
+   -u                       -   user oriented format
+   
 
 kill [signal] <PID>         -   default signal is -1, asks <PID> nicely to quit
                                 [if we want <PID> to join Jimmy Hoffa, now, use -9 signal]
@@ -104,6 +114,31 @@ locate <file_name>          -   finds file <file_name>
                                 creation and before command is run]
 
 find <path> -name <file_name> 
+
+hostname                    -   system name
+
+dpkg                        -   install, build, remove and manage Debian packages
+    -i <package_name>       -   install <package_name>
+    -r <package_name>       -   remove <package_name>
+    -p <package_name>       -   purge <package_name>
+    -l                      -   list packages [optional <package_name_pattern> can be used]
+
+who                         -   list logged in users
+
+whoami                      -   show current user id
+
+w                           -   list loged in users and what they are doing
+
+last                        -   listing of last logged in users, with time connected
+
+netstat                     -   list network connections 
+        -a                  -   show both listening and non-listening sockets
+        -l                  -   show only listening sockets
+        -n                  -   show numeric output instead of IP addr. and port #
+        -t                  -   TCP
+        -u                  -   UDP
+        -x                  -   UNIX
+        -p                  -   PID and name of program that socket belongs to
 
 tr "a" "b"		            -	translate (or delete characters); basic substitution	
    		     -d "c"         -   deletes char instead of "translating"
@@ -159,7 +194,7 @@ export $<VARIABLE>          -   export a variable
 crontab -l                  -   list scheduled jobs
         -e                  -   edit scheduled jobs
 
-id                          -
+id                          -   show user and group ids 
 
 john                        -   use unshadow first
 
