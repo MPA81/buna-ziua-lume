@@ -1,0 +1,293 @@
+AWK commands
+
+##### From "The GNU Awk User's Guide" | gnu.org/software/gawk/manual/gawk.html #####
+
+Command line apparence and results
+
+$ echo hi on stdout
+-| hi on stdout
+$ echo hello on stderr 1>&2
+error-> hello on stderr
+
+(the $ symbol indicates that we find ourselves on the command line.
+ -|         indicates std output
+ error ->   indicates std error)
+
+
+Awk file format
+
+pattern {action}
+pattern {action}
+
+
+Run awk Programs
+
+-command line:
+$ awk 'program' input-file1 input-file2
+
+(The single quotes around the program are there so that the shell won't interprete any awk
+commands awk characters as special shell characters.  Quotes also cause the shell to
+treat all of the program as a single argument for the awk command, and permit the program
+to be more than one line long)
+
+-from files
+$ awk -f program-file.awk input-file1 input-file2
+
+(the .awk file extension is not technically necessary)
+
+-without input files
+$ awk 'program'
+
+(applies the program to the standard input. continues until you indicate EOF via Ctrl-d)
+
+*small example
+$ awk 'BEGIN { print "Don\47t Panic!" }'
+-| Don't Panic!
+
+(statements associated with BEGIN are executed before awk reads any input.  If there are
+no other statements in a program, awk just stops. \47 is a 'magic way' of getting a
+single quote without engaging shell quoting tricks.)
+
+*small example 
+$ awk '{ print }'
+hello my baby, hello my honey
+-| hello my baby, hello my honey
+hello my spring time gal
+-| hello my spring time gal
+if you refuse me
+-| if you refuse me 
+Ctrl-d
+
+(whatever is typed in to std in will be sent to std out. Ctrl-d necessary to exit)
+
+-executable awk programs
+
+$ touch advice
+$ vi advice 
+___
+#! /bin/awk -f
+
+BEGIN { print "Don't Panic!" }
+___
+
+$ chmod +x advice
+$ ./advice
+-| Don't Panic
+
+(awk is an interpreted language.  /bin/awk is the interpreter.
+ the shebang '#!' indicates an interpreter directive to the program loader, in other
+ words that set of symbols says that what follows is an interpreter for the rest of the
+ program that follows.  NOTE: some systems limit the length of the interpreter name to 32
+ characters. If necessary use a symbolic link)
+
+-comments in awk programs
+
+$ vi moreadvice
+___
+# This here is a comment 
+# This is also a comment
+BEGIN { print "Don't Panic!" } # This here, you guessed it, also a comment.
+___
+$ awk -f moreadvice 
+-| Don't Panic!
+
+( # indicates a comment, it does not need to be at the beggining of the line.
+CAUTION: when enclosing a short program in single quotes do not put an apostrophe into a
+comment or anywhere else in your program.  Shell interprets this other quote as the
+closing quote for the entire program. A backslash before the single quote will not help
+in this situation. backslashes are not special inside single quotes.)
+
+-null string
+
+$ echo ""
+-| 
+
+Although no characters present in printed string, it does exist. Simply an empty string.
+
+-search for string
+
+awk '/<string>/ { print $0 }' <file to be seached>
+
+$ awk '/li/ { print $0 }' mail-list
+-| Amelia      555-5553    amelia.zodiacusque@gmail.com    F
+-| Broderick   555-0542    broderick.aliquotens@yahoo.com  R
+-| Julie       555-6699    julie.persrutabor@skeeve.com    F
+-| Samuel      555-3430    samuel.lanceolis@shu.edu        A
+
+-print every line longer than n characters
+
+awk 'length($0) > <n>' <file_name>
+
+$ awk 'length($0) > 40' charcnt.txt
+-| there are 50 characters on this line, dig .......
+-| this here is the longest line in this file, ok, nothing more to it
+
+-print the length of the longest line
+
+$ awk '{ if (length($0) > max) max = length($0) }
+> END { print max }' charcnt.txt
+-| 66
+
+code associated with END executes after all input has been read.
+
+or
+
+$ expand charcnt.txt | awk '{ if (x < length($0)) x = length($0)}
+> END { print "maximum line length is " x }'
+-| maximum line length is 66
+
+input is processed by the expand utility to change TABs into spaces; thus the widths
+compared are actually the right-margin columns, as opposed to the number of input 
+characters on each line.
+
+-print every line that has at least one field
+
+$ awk 'NF > 0' charcnt.txt
+-|10 chars.
+-|20 characters here.
+-|30 characters on this line ..
+-|40 characters be on this line here you.
+-|there are 50 characters on this line, dig .......
+-|this here is the longest line in this file, ok, nothing more to it
+
+easy way to delete blank lines from a file (create new file w/o blank lines)
+
+-print seven random numbers from 0 to 100, inclusive:
+
+$ awk 'BEGIN { for (i = 1;  i <=7; i++)
+> print int(101 * rand()) }'
+-|84
+-|39
+-|79
+-|80
+-|92
+-|19
+-|33
+
+-print the total number of bytes used by the files
+
+$ ls -l mail-list charcnt.txt | awk '{ x += $5 }
+> END { print "total bytes: " x }'
+-|total bytes: 861
+
+-print the total number of kilobytes used by the files
+
+$ ls -l mail-list charcnt.txt | awk '{ x += $5 }
+> END { print "total K-bytes", x / 1024 }'
+-|total K-bytes: 0.84082
+
+-print a sorted list of the login names of all users
+
+awk -F: '{ print $1 }' /etc/passwd | sort
+
+(reasons why this is presented in this format should be obvious to the reader)
+
+-count the lines in a file
+
+$ awk 'END { print NR }' charcnt.txt
+-|12
+
+-print the even-numbered lines in the charcnt.txt file
+
+$ awk 'NR % 2 == 0' charcnt.txt
+-|
+-|10 chars.
+-|
+-|30 characters on this line ..
+-|40 characters be on this line here you.
+-|this here is the longest line in this file, ok, nothing more to it
+
+using 'NR % 2 == 1' would print the odd-numbered lines 
+
+
+*example with two rules
+
+___
+/12/  { print $0 } 
+/21/  { print $0 }
+___
+
+rule one has string '12' as a pattern and 'print $0' as an action
+rule two has string '21' as a pattern and 'print $0' as an action
+program prints every line that contains the string '12' or the string '21'.
+a line that contains both strings is printed twice, once by each rule
+
+$ awk '/12/  { print $0 }
+> /21/  { print $0 }' mail-list inventory-shipped
+-|Anthony     555-3412    anthony.asserturo@hotmail.com   A
+-|Camilla     555-2912    camilla.infusarum@skynet.be     R
+-|Fabius      555-1234    fabius.undevicesimus@ucb.edu    F
+-|Jean-Paul   555-2127    jeanpaul.campanorum@nyu.edu     R
+-|Jean-Paul   555-2127    jeanpaul.campanorum@nyu.edu     R
+-|Jan 21  36  64  401
+-|Apr 21  70  74  514
+
+('Jean-Paul' line printed twice, one for each rule.
+
+*a more complex example
+
+S ls -l | awk '$6 == "Nov" { sum += $5 }
+> END { print sum }'
+
+program will print the total number of bytes in all files modified in November (of any
+year) present in current directory 
+
+ls -l       ~ listing of the files with size and date the file was modified
+             Sixth field of listing is the month
+             Fifth field of listing is file size in bytes
+
+$6 == "Nov" ~ test whether sixth field of the ls -l output matches the string "Nov"
+
+sum += $5   ~ each time the expression above is true awk adds the value of the fifth 
+             field to the variable 'sum'
+             (Note: all awk variables are automatically initialized to 0)
+
+END { print sum }
+            ~ after the last line output from ls is processsed, END rule executess and
+             prints value of sum
+
+
+*awk Statements Versus Lines
+
+
+
+-----------------------------------------------------------------------------------------
+
+BEGIN {awk-commands} -- optional
+/pattern/ {awk-commands} 
+END {awk-commmands} -- optional
+
+### Command Line ###
+
+awk [options] file ...
+
+awk '{print}' filename.txt
+--above command will print the contents of <filename.txt> line by line
+
+awk 'BEGIN{printf "Wha Who\tQue\tWhi} {print}' filename.txt
+--above command will first print a header of:
+    Wha{space}Who{tab}Que{tab}Whi
+  followed by the contents of <filename.txt> line by line.
+
+### Program file ###
+
+--first create a file with the extention <.awk>
+touch marks.awk
+
+--then add the following instructions to the file 
+{print}
+
+--finally on the command line enter the command:
+awk -f marks.awk <filename.txt> 
+
+--command will print the contents of <filename.txt> line by line
+
+
+### Standard Options ###
+
+-v  assigns a value to a variable
+
+  **Example**
+awk -v name=Jerry 'BEGIN{printf "Name = %s\n, name}'
+    Result
+Name = Jerry

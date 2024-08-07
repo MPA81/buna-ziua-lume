@@ -49,7 +49,7 @@ chmod <permissions> <path>  -   modify permisssions to file residing at <path>
                                 [+ to add or - to remove]
                                 [0--- 1--x 2-w- 3-wx 4r-- 5r-x 6rw- 7rwx]
 
-chown <name> <file>	    -	change owner <name> of <file>			    -
+chown <name> <file>	        -	change owner <name> of <file>			    
 
 chgrp <group_name> <file>   -   change <group_name> owner of <file>
 
@@ -355,7 +355,7 @@ ls | grep '<search_pattern>' | tr "\n" "\0" | xargs -0 rm	-
 	we are listing files (and directories that fit a specific 
 	<search_pattern>. Item 3 in the pipes translates the classic new line
 	character (each item found by ls|grep sits on its own line) and 
-	changhes it into a null character that Item 4 xargs (standard input
+	changes it into a null character that Item 4 xargs (standard input
 	new line to command line argument) recognizes as end of the argument
 
 grep -o '$.*' <file-name> | tr -d '$' | awk '{x = x + $}END{print x}'

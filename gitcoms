@@ -1,0 +1,217 @@
+!!! COMMANDS FOR GIT DUDE !!!
+
+## KEEP IN MIND THAT WE HAVE NOW ALSO PORTED
+## gh THE GITHUB CLI. ONCE WE GET INTO IT
+## IT IS GOING TO BE A SEPARATE COM FILE
+
+# our Github URL:
+https://github.com/MPA81/
+
+# we can initialize any directory for version control, from its ./ with:
+git init
+
+# next interesting step
+git add [file.ext]
+git add LICENSE
+git commit -m 'initial project version
+
+# to get a working copy of an existing Git repo [use the ssh method].
+git clone <url>
+# or if you would like we may also use in place of standard url,
+# (you know, https://)
+git clone git://path/to/repo {optional [target/directory]}
+# or
+git clone user@server:path/to/repo.git
+#or
+git clone ssh://git@github.com/MPA81/<repo_name>
+
+git status					- Self explanatory
+
+git add [file]				- add precisely this content to next commit.
+
+# next we can move the added files from staged to commited
+git commit
+git commit -a 				- to add without git add file (if file is tracked already)
+git commit --amend			- redo a commit
+
+git commit -m 'initial commit' 	-the 'initial commit' is a shasum
+git add file_we_forgot
+git commit --amend				-this set of three adds a file to a commit
+
+# to ignore files from the process, we create a .gitignore file:
+# and simply list the file names there. a good idea would be 
+# to place anything that ends in .swp in there *.swp
+# IF you are feeling clever, include .gitignore in the list
+
+# exactly what has changed that is not staged yet?
+git diff
+
+# what's staged that will go into the next commit
+git diff --staged
+		 --cached
+
+# check for whitespace issues
+git diff --check
+
+# show me the work our current branch has introduced since
+# its common ancestor with master branch
+git diff master...<branch_name>
+
+# to remove a file from tracked
+git rm [file]
+
+## IF WE DO A SIMPLE rm [file], the file will still show up
+# under "Changes not staged for commit" (unstaged)
+
+git rm -f [file]		- force removal from staging area;
+git rm -- cached 		- keeps file in working tree but remove from staging
+
+# We can also renamne files in git
+
+git mv [old_file_name] [new_file_name]
+
+## ABOVE COMMAND IS A ONE IN THREE
+# mv [old_file_name] [new_file_name]
+# git rm [old_file_name]
+# git add [new_file_name]
+
+git log			- display commits made in repository in reverse chronological order
+		-p		- shows differences (the patch output)
+		--stat	- abbreviated stats for each commit
+		--pretty=format			- this one you'll just have to look at.
+git log -S [string_name]		- will show only those commits that added or removed a 
+								 reference to [string_name]
+
+git log --oneline				-one line per comit, useful for short sha names
+		--graph					-a little graph of what's what
+		--all					-shows all the branches
+
+git log -o(ption) [whatever] --grep [string]
+
+# Adding remote repo's
+git remote add <shortname> <url>
+
+# Fetching from remote
+git fetch <shortname>
+
+# Fetch and merge remote branch into current branch
+git pull
+
+git push
+git remote show <shortname>
+git remote rename <old_shortname> <new_shortname>
+git remote remove <shortname>
+
+# create a tag for the last comit
+git tag -a <tag_name> -m <tagging_message>
+
+# a list of our tags
+git tag -l
+
+# show what the tag is related to
+git show <tag_name>
+
+# delete a tag
+git tag -d <tag_name>
+
+# delete tag from remote server
+git push origin --delete <tag_name>
+
+## BY default git push does not transfer tags to remote servers.
+# to explicitly push tags run git push origin <tagname>
+# to push a lot of tags run   git push origin --tags
+
+# create a branch
+git branch <new_branch_name>
+
+git branch 				- list of current branches,
+git branch --merged 	- list of merged branches
+git branch --no-merged	- list of branches that contain work
+						 we have not merged.
+# all of the above relates to current branch,
+# additional argument can be provided for some other branch
+
+# switching to a branch
+git checkout <branch_name>
+
+# create a branch and switch to it
+git checkout -b <new_branch_name>
+
+# To merge a branch into the current one
+git merge <branch_name>
+## When this shit fails, and believe me it will, try vim-ing 
+#the file that was a problem child, chances are thew solution
+#is right in front of your nose.
+
+# Just as an idea, when done merging consider
+git branch -d <merged_branch_name>
+
+# To get info on a user
+curl https://api.github.com/users/user_name
+
+# Creating aliases
+git config --global alias.<alias_name> <original_command>
+
+# Inspect a commit
+git show <commit_number>
+
+# Stash work that you do not want to push
+git stash 
+git stash push
+
+# See a list of stashed items
+git stash list
+
+# Apply stash to current
+git stash apply
+git stash apply@{<stash_number>}
+
+# Remove stash from stack
+git stash drop
+
+# Apply stash and then drop from stack
+git stash pop
+
+# Create a branch from a stash, from the commit at stash creation time
+git stash branch <new_branch_name>
+
+# Clean accumulated crud 
+git clean   [look up -f -n -d -s -x and -ff options]
+
+# Info on branch
+git cat-file -p <branch_name>
+git ls-tree -r <branch_name>
+git ls-files -s
+
+# Create a file with your commit
+git bundle cleate repo.bundle HEAD master
+
+# Clone from file
+git clone repo.bundle repo
+
+# Potentially destructive shit
+git reset --soft  		[moves HEAD]
+		  --mixed		[moves HEAD and adjusts index]
+		  --hard		[moves HEAD, adjusts index and deletes local commits up to it]
+
+git reset <file_name>	[unstages file_name, basically the opposite of git add]
+
+## ALIAS EXAMPLES, to be uncomented if we create them
+#git config --global alias.co checkout
+#git config --global alias.br branch
+#git config --global alias.ci commit
+#git config --global alias.st status
+#git config --global alias.unstage 'reset HEAD --'
+git config --global alias.last 'log -1 HEAD'
+
+
+# Learn more about:
+git bisect start 
+		   good
+		   bad
+		   reset
+
+## FOR INFO ON SETTING UP SSH ACCESS check out
+# https://git-scm.com/book/en/v2/Git-on-the-Server-The-Protocols
+
+### EOF ###
