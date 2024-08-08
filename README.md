@@ -40,12 +40,12 @@ script with some CSS fluffing in an html
 wrap.  I belive at the time of its
 creation I was learning how to make a
 website responsive and was having a hard
-time finding appropriave view-port
+time finding appropriate view-port
 sizes. This resolved that particular 
 issue and it also provided us with a 
 quick html template to start from.
 [RO | un script foarte simplu in vanilaJS
-facut nințel frumos cu CSS înbrăcat în
+facut nințel frumos cu CSS, înbrăcat în
 html ca să funcționeze. Din câte îmi
 amintesc, la timpul respectiv, învățam
 responsive web design, si aveam probleme
@@ -58,12 +58,12 @@ problema si am creat, deasemenea, un
 zshrc - I do not remember where I got
 the basic template for this
 configuration file.  If this is your
-original work that I modified and you 
+original work that I modified, and you 
 recognize it, let me know; I would be
 very happy to credit its origin to an
 author.  I am an avid command line user.
-Also my main machine has been for some
-time OSX based. At some point in time
+Also my main machine has, for some time
+been OSX based. At some point in time
 OSX switched over from basic bash, to 
 the much more powerful zsh shell... and 
 they also started giving me a heads up 
@@ -85,21 +85,22 @@ des. De asemenea sistemul meu principal
 este de ceva timp OSX.  Nu țin minte
 cand OSX a mutat interfața terminal-ului
 de la bash la zsh, dar țin minte că la
-vremea respectivă au inceput a-mi sugera
-să-mi schimb shell-ul de fiecare dată 
-când deschideam terminal-ul. După un 
-timp am schimbat si am găsit această
-configuratie a fii de folos in locul 
-unui bashrc.  M-am jucat cu cea ce 
-zice pentru ceva timp, dar sunt fericit 
-cu rezultatul si nu am schimbat nimic 
-de ceva timp... o eternitate(?).]
+vremea respectivă au inceput să-mi zică 
+ce idee bună ar fii să schimb shell-ul 
+de fiecare dată când deschideam 
+terminal-ul. După un timp am schimbat 
+si am găsit această configuratie a fii 
+de folos in locul unui bashrc.  M-am 
+jucat cu cea ce zice pentru ceva timp, 
+dar sunt fericit cu rezultatul si nu 
+am schimbat nimic de ceva timp... o 
+eternitate(?).]
 
 [wget https://raw.githubusercontent.com/MPA81/buna-ziua-lume/master/zshrc]
 
-zshenv - this file here goes hand with
-the zshrc file.  If you would like to set
-your own function definitions, I
+zshenv - this file here goes hand in hand
+with the zshrc file.  If you would like 
+to set your own function definitions, I
 generally do, and you would like for
 those function definitions to actually
 work... well, in that case this file is
@@ -122,3 +123,26 @@ metasploit commands with instructions
 pentru programul metasploit]
 
 [wget https://raw.githubusercontent.com/MPA81/buna-ziua-lume/master/metasploit_cmd]
+
+vimcom - command reference file for my 
+favorite text editor out there.  A work
+in progress.
+[RO | fișa de mențiune la programul meu 
+favorit pentru a scrie text. Lucrare în
+curs de desfășurare]
+
+[wget https://raw.githubusercontent.com/MPA81/buna-ziua-lume/master/vimcom]
+
+gitcoms - basic commands to get one 
+around using the git program.
+[RO | comenzile de bază folosite 
+de programul git.]
+
+[wget https://raw.githubusercontent.com/MPA81/buna-ziua-lume/master/gitcoms]
+
+awk_com - a manual for using awk 
+language. Work in progress
+[RO | manual pentru a folosi limba
+de programare awk. Lucrare în curs]
+
+[wget https://raw.githubusercontent.com/MPA81/buna-ziua-lume/master/awk_com]
