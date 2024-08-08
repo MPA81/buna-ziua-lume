@@ -252,6 +252,7 @@ END { print sum }
 
 
 -----------------------------------------------------------------------------------------
+### Different source.  May keep or delete, undecided. ###
 
 BEGIN {awk-commands} -- optional
 /pattern/ {awk-commands} 
