@@ -1,8 +1,10 @@
 AWK commands
 
 ##### From "The GNU Awk User's Guide" | gnu.org/software/gawk/manual/gawk.html #####
+# Any missing section deemed unimportant, can be looked up at the website above #
 
-Command line apparence and results
+*Command line apparence and results
+[Typographical Conventions]
 
 $ echo hi on stdout
 -| hi on stdout
@@ -14,12 +16,14 @@ error-> hello on stderr
  error ->   indicates std error)
 
 
-Awk file format
+*Awk file format
+[I.1 Getting Started with awk]
 
 pattern {action}
 pattern {action}
 
-Run awk Programs
+*Run awk Programs
+[I.1.1]
 
 -command line:
 $ awk 'program' input-file1 input-file2
@@ -30,11 +34,14 @@ treat all of the program as a single argument for the awk command, and permit th
 to be more than one line long)
 
 -from files
+[I.1.1.1 One-Shot Throwaway awk Programs]
+
 $ awk -f program-file.awk input-file1 input-file2
 
 (the .awk file extension is not technically necessary)
 
 -without input files
+[I.1.1.2 & I.1.1.3]
 $ awk 'program'
 
 (applies the program to the standard input. continues until you indicate EOF via Ctrl-d)
@@ -59,7 +66,8 @@ Ctrl-d
 
 (whatever is typed in to std in will be sent to std out. Ctrl-d necessary to exit)
 
--executable awk programs
+*executable awk programs
+[I.1.1.4]
 
 $ touch advice
 $ vi advice 
@@ -79,7 +87,8 @@ $ ./advice
  program that follows.  NOTE: some systems limit the length of the interpreter name to 32
  characters. If necessary use a symbolic link)
 
--comments in awk programs
+*comments in awk programs
+[I.1.1.5]
 
 $ vi moreadvice
 ___
@@ -97,12 +106,14 @@ closing quote for the entire program. A backslash before the single quote will n
 in this situation. backslashes are not special inside single quotes.)
 
 -null string
+[included in I.1.1.6]
 
 $ echo ""
 -| 
 
 Although no characters present in printed string, it does exist. Simply an empty string.
 
+[I.1.3]
 -search for string
 
 awk '/<string>/ { print $0 }' <file to be seached>
@@ -200,6 +211,7 @@ using 'NR % 2 == 1' would print the odd-numbered lines
 
 
 *example with two rules
+[I.1.4]
 
 ___
 /12/  { print $0 } 
@@ -224,6 +236,7 @@ $ awk '/12/  { print $0 }
 ('Jean-Paul' line printed twice, one for each rule.
 
 *a more complex example
+[I.1.5]
 
 S ls -l | awk '$6 == "Nov" { sum += $5 }
 > END { print sum }'
@@ -247,6 +260,7 @@ END { print sum }
 
 
 *awk Statements Versus Lines
+[I.1.6]
 
 each line in an awk progra, is a separate statement or separate rule:
 
@@ -317,6 +331,39 @@ program at the start of this section could also be written this way:
 above does not apply to awk, only in gawk.
 
 # ... here may not be necessary, consider removing it at final edit
+
+
+*other features of awk
+[I.1.7]
+
+
+*when to use awk
+[I.1.8]
+
+awk language is very useful for producing reports from large amounts of raw data
+
+if one finds themselves writing awk sripts of a few hundred lines you may consider using
+a different programming language
+
+
+*part I summary
+[I.1.9]
+
+programs in awk consist of pattern-action pairs
+
+an action without a pattern always runs. default action pattern without is '{ print $0 }'
+
+use either 'awk 'program' files' or 'awk -f program-file files' to run awk
+
+use '#!' header to create directly executable awk programms
+
+comments start with '#' and continue to the end of the same line
+
+be aware of quoting issues with awk programs that are part of larger shell scripts (or
+MS-Windows batch files)
+
+backslash continuation may be used to contine a source line. Lines are automatically
+continued after a comma, open brace, question mark, colon, '||', '&&', do, and else
 
 
 
