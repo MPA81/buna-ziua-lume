@@ -19,7 +19,6 @@ Awk file format
 pattern {action}
 pattern {action}
 
-
 Run awk Programs
 
 -command line:
@@ -249,10 +248,79 @@ END { print sum }
 
 *awk Statements Versus Lines
 
+each line in an awk progra, is a separate statement or separate rule:
+
+awk '/12/ { print $0 }
+     /22/ { print $0 }' mail-list inventory-shipped
+
+however gawk ignores newlines after the following symbols and keywords:
+
+, { ? : || && do else
+
+newline at any other point is considered the end of the statement
+
+to split a single statement into two lines at a point where a new line would terminate it
+we can continue it by ending the first line with a backslash character ('\'):
+
+awk '/This regular expression is too long, so continue it\
+    on the next line/ { print $1 }'
+
+gawk places no limit on the length of a line, therefore backslah continuation is never
+strictly necessary; it does however make programs more readable.
+
+backslash continuation is very useful when our awk program is in a separate source file
+
+NOTE: many awk implementations are more particular about where you may use backslash 
+continuation. For maximum portability of our awk programs, it is best not to split lines
+in the middle of a regular expression or a string.
+
+CAUTION: backslash continuation does not work as described with the C shell.  wokrs for
+awk programs in files and for one-shot programs, as long as you are using a
+POSIX-compliant shell.
+
+awk is a line-oriented language: each rule's action has to begin on the same line as the
+pattern. for pattern and action to on separate lines one must use backslash continuation 
+
+backslach continuation and commments do not mix. awk ignores everything after a '#'
+$ gawk 'BEGIN { print "dont panic" # a friendly \
+>                                       BEGIN rule
+> }'
+error-> gawk: cmd. line:2:                  BEGIN rule
+error-> gawk: cmd. line:2:                  ^ syntax error
+
+unexpected situation:
+
+gawk -F'\
+a' '...'
+
+command line assigns a value to FS. gawk treats the above, as if written thus:
+
+BEGIN { FS = "\
+a"
+}
+...
+
+backslash and newline are removed, assigning "a" to FS.
+same treatment applies to variable assignments made with the -v option
+same treatment applies to regular command-line variable assignments
+
+# this section from here to...
+
+When qawk statements with one rule are short, you may want to put more than one on a line
+this is accomplishe by separating statements with a semicolon (';').  This can also be
+applied to rules themselves
+
+program at the start of this section could also be written this way:
+
+/12/ { print $0 } ; /21/ { print $0 }
+
+above does not apply to awk, only in gawk.
+
+# ... here may not be necessary, consider removing it at final edit
+
 
 
 -----------------------------------------------------------------------------------------
-### Different source.  May keep or delete, undecided. ###
 
 BEGIN {awk-commands} -- optional
 /pattern/ {awk-commands} 
