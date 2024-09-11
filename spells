@@ -198,6 +198,15 @@ id                          -   show user and group ids
 
 john                        -   use unshadow first
 
+hashcat                     -   can decrypt hashes... with a little bit of luck
+                                | Usage:                                        |
+                                | -with dictionary file:                        |
+                                |   hashcat -a 0 -m 0 -O <file> <dictionary>    |
+                                |       *good dictionary file @:                |
+                                |           /usr/share/wordlists/rockyou.txt    |
+                                | -bruteforce:                                  |
+                                |   hashcat -a 3 -m 0 <file or hash>            |
+
 nslookup <webaddress>       -   
 
 gedit                       -   new gui option for vim and nano

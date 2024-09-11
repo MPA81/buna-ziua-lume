@@ -42,4 +42,15 @@ Moving around while in command mode:
     5)0     -   move to the beggining of the line 
     6)$     -   move to the end of the line
 
+[... more basic info ...]
+
+To see all options configured, while in command mode:
+    :set
+
+To see which file takes precendence (set the option last), while in command mode:
+    :5verbose set <option>?
+    [If we are having a hard time overriding a particular option, in ~/.vim directory
+    there is an after/ directory 
+
+
 [to be continued]
