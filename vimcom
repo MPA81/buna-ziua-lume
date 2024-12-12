@@ -3,7 +3,7 @@ VI Commands [My personal reference on how to use the worlds most prolific text e
 
 First we need to establish that VI/vim has two separate modes of operation:
 they are    1)Insert mode   -   where we type whatever needs to be seen
-            2)Command mode  -   this is where vim does its editing
+            2)Command mode  -   otherwise known as Normal mode, where vim does its editing 
 
 The single most asked question on StackOverflow, for the longest time was:
 "How do I exit Vim?". And I admit, the first time that you experience interacting with
@@ -39,13 +39,72 @@ Moving around while in command mode:
     2)j     -   move down
     3)k     -   move up
     4)l     -   move right
-    5)0     -   move to the beggining of the line 
-    6)$     -   move to the end of the line
+    5)w     -   move to the next word
+    6)b     -   move to the previous word
+    7)0     -   move to the beggining of the line 
+    8)$     -   move to the end of the line
+    9)^     -   move to first written character on current line
+   10)gg    -   move to the beggining of the file
+   11)G     -   move to the end of the file
+   12)#G    -   move to line number #
+   13)<Ctrl> + f    -   up one screen
+   14)<Ctrl> + b    -   down one screen
+    
+    For items one thru six, a number typed before the command can move us in the selected
+    direction by the number of elements indicated.
 
-[... more basic info ...]
+Delete inserted work:
+    1)x     -   delete character
+    2)dd    -   delete line
+    3)dw    -   delete word [if past first character,
+    - A number before any command above, will delete the indicated number of items. 
+    4)D     -   delete line to the right side of the cursor
 
-To see all options configured, while in command mode:
+Change already inserted work:
+    1) u        -   undo last, whatever that last may be
+    1) r        -   replace the single character, that is currently under the cursor
+    2)cw        -   change word [ends when <Esc> key pressed]
+    3) ~        -   changes upper case to lower case and vice versa [above <tab> key]
+    4):s/⍺/β    -   substitute first iteration of string ⍺ for string β on current line
+    5):#,#s/⍺/β -   from line # to line # sub first iteration of string ⍺ for string β
+    6):.,+#s/⍺/β-   from current line to # of lines down sub first iteration of ⍺ for β
+    - Adding a \g to the end of any of the previous three statements will make the
+      substitutons global instead of confining them to the first iteration.
+
+Finding a string, search for, marking positions, all that good stuff. if you will:
+    1) /abc -   search forward for string 'abc'
+    2) ?abc -   search back for string 'abc'
+    3) n    -   repeat last search
+    4) %    -   find matching parenthesis/brackets to one cursor curently is on
+    5) #    -   go to previous use of 'string' currently under cursor 
+    6) ma   -   mark position 'a'
+    7) 'a   -   go to marked porsition 'a' [above <tab> key]
+    8) d`a  -   delete ¡everything! from cursor to marked position 'a'
+
+Other useful stuff:
+    1) .    -   repeat last, whatever that last may be
+    2) J    -   join next line to current one
+    3) v    -   visual selection, select lines starting from cursor.
+    4)<Ctrl> + v - visual block, select a code block, starting from cursor
+    -In both of the above cases selction will be highlited. 
+    5) yy   -   "yank", copy current line. # number placed first will "yank" # lines 
+    6) y$   -   "yank", copy current line from cursor location to end of said line
+    7) y0   -   "yank", copy current line from cursor location to beggining thereof
+    8) "by  -   "yank", copy highlited selection to buffer "b" 
+    9) "cyy -   "yank", copy current line to buffer "c".
+   10) p    -   paste last deleted item to the right of current cursor location
+   11) P    -   paste last deleted item to the left of current cursor location 
+   12) "bp  -   paste contents of buffer "b" after current cursor position
+   13) "cP  -   paste contents of buffer "c" before current cursor position 
+
+To see options configured by user:
     :set
+
+To see all options:
+    :set all
+
+Some quick options we may want to set / un-set:
+    :set number / nonumber  -   number or remove number of each line in file 
 
 To see which file takes precendence (set the option last), while in command mode:
     :5verbose set <option>?
