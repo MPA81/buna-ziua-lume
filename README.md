@@ -10,12 +10,12 @@ included is indeed intended for public use.
 era, și rămâne, ca să fie folositor, nu numai mie dar și altora. Am decis că ar 
 fii mai bine dacă această idee ar fii aparentă.]
 
-Legat de ce contine acest repositoriu
+Legat de conținutul acestui repositoriu
 [RO -> EN | regarding what this repository contains]:
 
 tmuxconf - old, some of it may be... no,
-definetly is, out of date but it is
-also a good starting point for
+definetly is, out of date also, but it is
+nonetheless a good starting point for
 anyone looking to start using tmux. On a
 personal note: I have messed about with
 several different modern code editors.
@@ -25,13 +25,13 @@ Guess I just stated my positon in that
 eternal nerd argument.
 [RO | chiar dacă informația conținută nu
 este chiar cea mai de ultimă oră, nu te
-aștepta la așa ceva, este un punct bun de
-referință pentru cei care doresc sa inceapă
-a folosi tmux. O notă personală: De și am
-încercat câteva diferite code editors, de 
-fiecare dată când încep din nou, mă întorc
-la tmux și vim... Aceasta este poziția mea
-legată de acea vechie neînțelegere.]
+aștepta la așa ceva, este totuși un punct bun 
+de referință pentru cei care doresc sa înceapă
+cu tmux. O notă personală: De și am încercat 
+câțiva diferiți code editors, de fiecare dată 
+când încep din nou, mă întorc la tmux și 
+vim... Aceasta este poziția mea legată de
+acea vechie neînțelegere.]
 
 [wget https://raw.githubusercontent.com/MPA81/buna-ziua-lume/master/tmuxconf]
 
@@ -48,9 +48,9 @@ quick html template to start from.
 facut nințel frumos cu CSS, înbrăcat în
 html ca să funcționeze. Din câte îmi
 amintesc, la timpul respectiv, învățam
-responsive web design, si aveam probleme
-gasind un model rezonabil.  Am rezolvat
-problema si am creat, deasemenea, un 
+responsive web design, si aveam probleme 
+în căutarea pentru un model rezonabil.  Am 
+rezolvat sitația si am creat, deasemenea, un 
 șablon html pe care îl putem folosi rapid]
 
 [wget https://raw.githubusercontent.com/MPA81/buna-ziua-lume/master/viewport.html]
@@ -67,26 +67,26 @@ been OSX based. At some point in time
 OSX switched over from basic bash, to 
 the much more powerful zsh shell... and 
 they also started giving me a heads up 
-every time I started a new terminal 
-session.  Eventually I switched over. 
-Found this file to replace my bashrc.  
-I tinkered with it for quite some time 
-before I got the result desired.  I am 
-however very happy with it and have 
-not made any changes in what feels like 
-an eternity.
-[RO | Nu țin minte de unde am găsit 
-acest șablon, pe care l-am modificat.
-Daca aceasta este produsul dumneavoastră 
+about it every time I started a new 
+terminal session.  Eventually I switched 
+over.  Found this file to replace my 
+bashrc.  I tinkered with it for quite 
+some time before I got the result desired.  
+I am however very happy with the result 
+and have not made any changes in what 
+feels like an eternity.
+[RO | Nu țin minte pe unde am găsit 
+acest șablon, care l-am modificat.
+Daca acesta este produsul dumneavoastră 
 original, ziceți-mi ceva; mi-ar face
 multă placere sa adaug un credit la
 început. Folosesc command line foarte
 des. De asemenea sistemul meu principal 
 este de ceva timp OSX.  Nu țin minte
-cand OSX a mutat interfața terminal-ului
+când OSX a mutat interfața terminal-ului
 de la bash la zsh, dar țin minte că la
 vremea respectivă au inceput să-mi zică 
-ce idee bună ar fii să schimb shell-ul 
+ce idee bună ar fii să schimb shell-ul, 
 de fiecare dată când deschideam 
 terminal-ul. După un timp am schimbat 
 si am găsit această configuratie a fii 
