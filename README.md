@@ -1,6 +1,6 @@
 # buna-ziua-lume [RO -> EN | hello-world ]
 
-Din San Diego pana la Bucuresti va uram o zii buna!
+Din San Diego până la Bucuresti va urăm o zii bună!
 [RO -> EN | From San Diego all the way to Bucharest we wish you a nice day!]
 
 I believe this was my first public repository and I feel that it should be a
