@@ -146,3 +146,24 @@ language. Work in progress
 de programare awk. Lucrare în curs]
 
 [wget https://raw.githubusercontent.com/MPA81/buna-ziua-lume/master/awk_com]
+
+### NOTE TO SELF ###
+# Every time a new machine finds its 
+# way into my hands I switch that 
+# useless CapsLock key to Esc, and
+# when possible the added Ctrl 
+# functionality.  Now, in linux 
+# this is usually done with caps2esc
+# and every single time I fight an
+# uphill battle to make it work.
+# Well, no more. For next time:
+# https://askubuntu.com/questions/979359/how-do-i-install-caps2esc
+# Now, even if we install 
+# interception-tools and caps2esc
+# as packages, the usevmon.yaml and
+# the udevmon.service files are 
+# necessary!!! Also in place of 
+# "intercept" use "interception".
+# sudo systemctl status udevmon
+# should be run to check things.
+### EOF ###
